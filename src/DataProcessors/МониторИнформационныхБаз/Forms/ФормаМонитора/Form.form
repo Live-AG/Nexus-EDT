@@ -1088,6 +1088,18 @@
                 <event>OnActivateCell</event>
                 <name>ТаблицаЭлементовКластераПриАктивизацииЯчейки</name>
               </handlers>
+              <handlers>
+                <event>DragCheck</event>
+                <name>ТаблицаЭлементовКластераПроверкаПеретаскивания</name>
+              </handlers>
+              <handlers>
+                <event>DragEnd</event>
+                <name>ТаблицаЭлементовКластераОкончаниеПеретаскивания</name>
+              </handlers>
+              <handlers>
+                <event>Drag</event>
+                <name>ТаблицаЭлементовКластераПеретаскивание</name>
+              </handlers>
               <searchStringAddition>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1422,6 +1434,7 @@
               <initialTreeView>ExpandAllLevels</initialTreeView>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
+              <enableDrag>true</enableDrag>
               <fileDragMode>AsFileRef</fileDragMode>
               <rowPictureDataPath xsi:type="form:DataPath">
                 <segments>ТаблицаЭлементовКластера.ИндексСостояния</segments>
@@ -3007,12 +3020,13 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаИнформационныхБазПолеНастройка</name>
               <id>65</id>
+              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>ТаблицаИнформационныхБаз.ИндексКартинки</segments>
+                <segments>ТаблицаИнформационныхБаз.ИндексКартинкиДопИнформации</segments>
               </dataPath>
               <titleBackColor xsi:type="core:ColorRef">
                 <color>Style.FormBackColor</color>
@@ -3056,7 +3070,7 @@
                 <verticalStretch>true</verticalStretch>
                 <hyperlink>true</hyperlink>
                 <valuesPicture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ВыполнитьЗапуск</picture>
+                  <picture>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</picture>
                 </valuesPicture>
                 <borderColor xsi:type="core:ColorRef">
                   <color>Style.FormBackColor</color>
@@ -3471,7 +3485,7 @@
             <enableStartDrag>true</enableStartDrag>
             <fileDragMode>AsFileRef</fileDragMode>
             <rowPictureDataPath xsi:type="form:DataPath">
-              <segments>ТаблицаИнформационныхБаз.ИндексКартинки</segments>
+              <segments>ТаблицаИнформационныхБаз.ИндексКартинкиСтрок</segments>
             </rowPictureDataPath>
             <rowsPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.БазаДанных</picture>
@@ -4153,6 +4167,24 @@
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
+	ПроверкиОбъектов.Объект КАК Объект,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ПроверкиОбъектов.Правило) КАК Правило,
+	МАКСИМУМ(ПроверкиОбъектов.Результат) КАК Результат
+ПОМЕСТИТЬ ВТ_Проверки
+ИЗ
+	РегистрСведений.ПроверкиОбъектов КАК ПроверкиОбъектов
+ГДЕ
+	ПроверкиОбъектов.Объект ССЫЛКА Справочник.ИнформационныеБазы
+
+СГРУППИРОВАТЬ ПО
+	ПроверкиОбъектов.Объект
+
+ИНДЕКСИРОВАТЬ ПО
+	Объект
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
 	СправочникИнформационныеБазы.Ссылка КАК Ссылка,
 	СправочникИнформационныеБазы.ПометкаУдаления КАК ПометкаУдаления,
 	СправочникИнформационныеБазы.Владелец КАК Владелец,
@@ -4178,9 +4210,16 @@
 			ТОГДА 1
 		ИНАЧЕ 2
 	КОНЕЦ КАК ПолеУпорядочивания,
-	0 КАК ИндексКартинки
+	ВЫБОР
+		КОГДА ВТ_Проверки.Правило ЕСТЬ NULL
+			ТОГДА -1
+		ИНАЧЕ ВТ_Проверки.Результат.Порядок
+	КОНЕЦ КАК ИндексКартинкиДопИнформации,
+	0 КАК ИндексКартинкиСтрок
 ИЗ
-	Справочник.ИнформационныеБазы КАК СправочникИнформационныеБазы</queryText>
+	Справочник.ИнформационныеБазы КАК СправочникИнформационныеБазы
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Проверки КАК ВТ_Проверки
+		ПО (ВТ_Проверки.Объект = СправочникИнформационныеБазы.Ссылка)</queryText>
       <mainTable>Catalog.ИнформационныеБазы</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>

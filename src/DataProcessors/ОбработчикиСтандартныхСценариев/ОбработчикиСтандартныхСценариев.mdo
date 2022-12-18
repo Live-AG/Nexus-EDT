@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94f2a88d-5100-4d0f-beb8-610d1c542885">
+  <producedTypes>
+    <objectType typeId="3035cad1-b402-4c06-9f11-db15217bfb7c" valueTypeId="28450ac2-4840-4eae-bd7f-db7bf2c2176c"/>
+    <managerType typeId="a4a94937-f848-4901-bdbc-7d044e72eec0" valueTypeId="1509a705-5154-4a00-aaf4-97ef9f83736f"/>
+  </producedTypes>
+  <name>ОбработчикиСтандартныхСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики стандартных сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="0ecb49db-4e38-451a-9fed-2550ba975697">
+    <name>ПереносБазыВДругойКластер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос базы в другой кластер</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d6d1fe1-f6b8-481d-bf12-1358d656ddd5">
+    <name>СозданиеНовойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание новой базы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1198,6 +1198,7 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.ПанельАдминистрированияNexus</dataProcessors>
   <dataProcessors>DataProcessor.МониторИнформационныхБаз</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработчикиСтандартныхСценариев</dataProcessors>
   <dataProcessors>DataProcessor.СДРНавигаторУпр</dataProcessors>
   <dataProcessors>DataProcessor.СДРОбъектУпр</dataProcessors>
   <dataProcessors>DataProcessor.СДРКонсольЗапросовХ</dataProcessors>

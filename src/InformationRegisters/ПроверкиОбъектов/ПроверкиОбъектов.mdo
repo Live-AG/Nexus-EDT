@@ -39,12 +39,12 @@
       <value>Объект</value>
     </synonym>
     <type>
-      <types>CatalogRef.ИнформационныеБазы</types>
       <types>CatalogRef.Кластеры1С</types>
-      <types>CatalogRef.ПользователиИБ</types>
       <types>CatalogRef.СерверыБД</types>
-      <types>CatalogRef.ХранилищаКонфигураций</types>
+      <types>CatalogRef.ИнформационныеБазы</types>
+      <types>CatalogRef.ПользователиИБ</types>
       <types>CatalogRef.ВебСерверы</types>
+      <types>CatalogRef.ХранилищаКонфигураций</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
