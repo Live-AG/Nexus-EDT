@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c815f9e9-d12f-4f6c-b257-c043698cda14">
+  <producedTypes>
+    <objectType typeId="144eefd2-6dcd-444c-9000-bc6ec7e3b8b7" valueTypeId="8f2911c6-92cb-4c9e-b74f-5d8c11aed1b6"/>
+    <refType typeId="bbdfa012-f066-411c-959c-a33331e838af" valueTypeId="607b9fd2-5507-4e55-a9b2-8229a61638e1"/>
+    <selectionType typeId="6d9ab2b9-414f-475e-9683-f1fc40b5d05e" valueTypeId="9594964b-e1bf-45ec-92b6-e7fee4674b3a"/>
+    <listType typeId="9ac9fb91-65de-4dd9-bc5a-d6f15a1cc802" valueTypeId="25c4cf0e-3c5b-447a-82da-ec9ff4e783dd"/>
+    <managerType typeId="b96439f6-b2d8-4495-a072-7d87a46a9f02" valueTypeId="82378f7d-ade0-4811-a08c-4e9218ebd980"/>
+  </producedTypes>
+  <name>ВебСерверы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб серверы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВебСерверы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Веб сервер</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Веб сервер</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4b0ae4c0-31d2-42de-b8eb-a5ba79e9c932">
+    <name>АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="410122a4-4e2d-477b-9ab5-fc20f2d8d4b0">
+    <name>ПортСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт сервера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f08400b-80a3-477d-aee9-d58cc7a33327">
+    <name>ТипыСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы сервера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыВебСерверов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f0302e7-f0ea-4244-b8bb-5fd87e1e7801">
+    <name>КаталогСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу сервера</value>
+    </synonym>
+    <comment>Каталог в котором располагаются каталоги bin и conf</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec3d20f7-0a8f-409b-9345-fe5354ac8a79">
+    <name>РабочийКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий каталог</value>
+    </synonym>
+    <comment>Рабочий каталог на сервере (-dir)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d3a0053-b7d3-4b6f-8660-5c1f6c2082df">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

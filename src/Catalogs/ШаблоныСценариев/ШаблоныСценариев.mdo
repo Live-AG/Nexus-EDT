@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09e5dc17-9496-48c0-81e8-3a3f13b8d6f3">
+  <producedTypes>
+    <objectType typeId="f81ae8c9-4404-41dd-95b8-7e1f0ccdd1e7" valueTypeId="990511fc-48bd-4f1d-afcc-bdb78d8294e7"/>
+    <refType typeId="cbaff61b-c198-4cd8-a5a0-5bcfef8f1f0f" valueTypeId="10007bec-783e-4932-8312-6c16ffd029ce"/>
+    <selectionType typeId="e3703151-6f2a-4d6c-a851-717f0e17299d" valueTypeId="c8194e61-e9b7-4e03-957a-c14a49eb5bff"/>
+    <listType typeId="e1782029-cd98-44d0-b102-07535ae0a9e2" valueTypeId="a1aba363-adb1-4740-b341-affcf4305876"/>
+    <managerType typeId="e2d7b4e5-e34d-4694-b987-24056423be1e" valueTypeId="a4b9a887-7b06-4921-95af-2cb93e397e23"/>
+  </producedTypes>
+  <name>ШаблоныСценариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сценариев</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныСценариев.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ШаблоныСценариев.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="529704f3-e75f-46d3-a8ad-897b3db9e3c0">
+    <producedTypes>
+      <objectType typeId="a1418f9b-ede8-4e6b-921a-6092cc33fa61" valueTypeId="3e173959-8439-42e3-a126-effce01eb49a"/>
+      <rowType typeId="f37a8c74-f54c-4137-9a95-115507175acd" valueTypeId="2245cbe0-73b2-4b30-9de6-7a03438180f5"/>
+    </producedTypes>
+    <name>ТаблицаСкриптов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица скриптов</value>
+    </synonym>
+    <attributes uuid="00513d1b-6891-44df-bea1-63f2f8183cf7">
+      <name>Скрипт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скрипт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Скрипты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e3b928be-c388-4ed9-b697-2217bd9eeeee">
+    <producedTypes>
+      <objectType typeId="afbcf271-8c27-4bd3-a5fb-e574229d5a25" valueTypeId="8cd64fdc-31f3-4e4e-b57f-c4745655d61d"/>
+      <rowType typeId="49e49419-bdda-4eed-8cf4-fd2c5167ec49" valueTypeId="b3321af4-24c0-45c5-8b3c-55ab2c310348"/>
+    </producedTypes>
+    <name>ПараметрыКонтекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры контекста</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Catalog>

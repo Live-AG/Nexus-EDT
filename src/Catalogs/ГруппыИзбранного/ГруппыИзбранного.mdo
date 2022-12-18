@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5e065bb-1ff5-4c6e-af35-5e3fb98989bd">
+  <producedTypes>
+    <objectType typeId="e416701b-a15a-4618-aade-8f674c7ba309" valueTypeId="1ed98639-5469-42dd-8256-9edda8fb822a"/>
+    <refType typeId="082efba2-7e4e-428d-9cd3-9aab8993345c" valueTypeId="446147c8-f53b-45db-b7fb-cae855a4de89"/>
+    <selectionType typeId="7b91e635-97b2-4b16-944e-4f0f47d588fa" valueTypeId="9cbaf061-ee7f-4fa0-b5a1-9e1bd56cd970"/>
+    <listType typeId="7bbc7389-d86e-480a-8dc9-4a78fc35ee6b" valueTypeId="a1602a20-c8ed-435b-867a-4f71789898bf"/>
+    <managerType typeId="afe0b41e-760c-4826-b2e1-21bcca8a9caf" valueTypeId="4c981e19-1638-4196-a850-bb985827dd72"/>
+  </producedTypes>
+  <name>ГруппыИзбранного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы избранного</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыИзбранного.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Избранное</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="62bb220f-9f63-47e1-bdc8-bf11f4dbb70a">
+      <name>НеИзбранные</name>
+      <description>&lt;Не избранные></description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f9c908cd-03d4-4925-8369-c30dbb100053">
+      <name>МоиБазы</name>
+      <description>Мои базы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cd19a9b1-307f-4803-a9e4-42704504bd7c">
+      <name>ЧастоИспользуемые</name>
+      <description>Часто используемые</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыИзбранного.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="6da4433f-38e7-4526-87d4-c05da1dffd15">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44710ada-ccb3-47e2-8f84-0d8539ef9907">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e656e67a-b6bc-4cea-a5e5-edc14ad447c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f3705e-494d-4811-9a1f-a4434a7690c9">
+  <producedTypes>
+    <refType typeId="3bfe951e-b654-4b2b-83bd-cf96c9f7463f" valueTypeId="3dc658b4-0535-45a5-a70a-7b0794c876ac"/>
+    <listType typeId="1e8a7192-4b3d-492e-b57a-f83b93fd15f2" valueTypeId="54eaf9f7-d447-4d7f-bf65-1b71a4842ea1"/>
+    <managerType typeId="40b77942-1977-413f-86bb-cf988fdc81dc" valueTypeId="6583a143-7042-4332-8218-bed7896be972"/>
+  </producedTypes>
+  <name>ТипыВебСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы веб серверов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="99914fdd-0080-42c8-9122-f7aaf7d7df89">
+    <name>iis</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS IIS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b792e428-f1da-414e-bd40-4b6023c65ed7">
+    <name>apache2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Apache 2.0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9b80f98-e6ec-48a1-b2b3-ca99cca83e03">
+    <name>apache22</name>
+    <synonym>
+      <key>ru</key>
+      <value>Apache 2.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96797666-ec88-4d9b-a8e4-4335143ec9e2">
+    <name>apache24</name>
+    <synonym>
+      <key>ru</key>
+      <value>Apache 2.4</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

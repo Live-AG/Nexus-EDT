@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03f6bec1-3b62-49db-8289-611df36b2a0e">
+  <producedTypes>
+    <objectType typeId="f5ed3bed-de24-4b6f-bb6b-4af649fb0ef2" valueTypeId="13904858-74aa-46af-bb59-96290853374c"/>
+    <managerType typeId="75e012a8-bc47-4776-94f5-946a37494dbe" valueTypeId="a0fb6c86-7de2-4ff8-93e7-f8f156960610"/>
+  </producedTypes>
+  <name>СДРНавигаторУпр</name>
+  <synonym>
+    <key>ru</key>
+    <value>СДР: Навигатор по конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СДРНавигаторУпр.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="684c594d-193f-43bc-8517-874065921096">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb00bd34-83cc-4ee7-902f-7f9f542d516a">
+    <name>ФормаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="78de0c9a-5446-4e7c-a71b-d2a3ebd58525">
+    <name>ФормаСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма свойств</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6fdebbd-a4ba-46e0-993d-a956c10689b8">
+    <name>ФормаВыбораМасштабаОтображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора масштаба отображения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07cb0578-64dc-4c3f-ba5a-7c73cbd37a09">
+    <name>ФормаБлокировкиСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма блокировки сеансов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64d3b482-e473-4b35-a3c1-48322fdd03c3">
+    <name>ФормаЗапуска1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма запуска1 С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a00b2eb5-397f-48e7-a64e-00d5983bc9a3">
+    <name>ФормаПользовательИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь информационной базы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb290db6-823b-4621-b106-36d67556697b">
+    <name>ФормаОтображенияХЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отображения ХЗ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d19b7abd-3af0-4ad8-a5a0-f36508ab8d5c">
+    <name>ФормаВыбораОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ee898b5-9d75-4048-901e-a5fc13eaef68">
+    <name>ФормаРедакторДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор движений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="61c200ce-d45d-43e5-913a-ce46618da055">
+    <name>ФормаРедакторДвиженийДоп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор движений доп</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e9ae5f7-77df-4a21-b531-97d68a0ca140">
+    <name>ФормаВыгрузкаОбъектаXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выгрузка объекта XML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c26bcb1a-5357-49a6-880b-b2fc1cae53bb">
+    <name>ФормаЗагрузкаXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузка XML</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="320aa8b3-0360-4f15-913b-5072891652fc">
+    <name>ФормаСпискаОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка объектов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96d926ed-8a95-4b26-b92d-bf0512101cf3">
+    <name>ФормаСпискаЗависимых</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка зависимых</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b14c202-70dd-4d22-b929-9903b13a9d7d">
+    <name>ФормаОтбораПоПодсистемам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора по подсистемам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edc45067-a80b-4221-a6b5-66474e7ffa5a">
+    <name>ФормаВыполнитьКод1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить код 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b4e851e-66f7-42cb-b117-4841de46731f">
+    <name>ФормаВыбораТипаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора типа объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="03cf744f-e108-4259-a42a-09c661bc7406">
+    <name>ФормаОРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма о разработке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5d474a2a-d7c8-4665-8e22-dbe75084302a">
+    <name>МакетСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сервис</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

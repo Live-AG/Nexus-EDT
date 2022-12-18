@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91fc451d-5f83-402b-9208-ccb458488456">
+  <producedTypes>
+    <objectType typeId="0a2009da-15d3-4363-8a54-10fe4e048eee" valueTypeId="5fb55fcb-5e82-440f-b8f1-32b33f3299fa"/>
+    <refType typeId="eb14fbef-d3f6-4fd4-9874-920852ccb3bc" valueTypeId="5ceab9cc-c6cc-4234-8b78-fee7feeb0559"/>
+    <selectionType typeId="f0ce4103-8de9-4691-b3e1-03da729359e9" valueTypeId="5d81ff57-6687-43ac-b188-6c61fc63038f"/>
+    <listType typeId="6351cdc2-f1b7-4a9f-909d-b80639be1009" valueTypeId="2a165916-34e3-45c2-9f49-f2f8e1d9a526"/>
+    <managerType typeId="555a2216-2a5e-481a-aff6-210556b3c2aa" valueTypeId="391f7a57-9288-44d9-95a1-b27dabc8cd7d"/>
+  </producedTypes>
+  <name>ХранилищаКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилища конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХранилищаКонфигураций.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ХранилищаКонфигураций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1745a48e-148b-49dd-a2b1-af3bcec39a66">
+    <name>ПутьКХранилищуКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к хранилищу конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0dd1dbe9-af3c-4a69-97a7-0426a756cd8b">
+    <name>ВерсияХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="60168fa2-f8cd-46e0-896e-d997b7909b3f">
+    <producedTypes>
+      <objectType typeId="97ea4bb3-0e77-441f-99c1-3b8108be0eeb" valueTypeId="185cc96f-e84d-47b2-b5df-e2f8c7f6449d"/>
+      <rowType typeId="cba39dd0-8865-4dec-ac2c-8bff64e4212f" valueTypeId="b5bd8d58-5283-4aee-8222-1a4830eea000"/>
+    </producedTypes>
+    <name>ПользователиХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи хранилища</value>
+    </synonym>
+    <attributes uuid="2aca010c-89f0-4581-94f4-2875ee6c2ad0">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПользователиИБ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
