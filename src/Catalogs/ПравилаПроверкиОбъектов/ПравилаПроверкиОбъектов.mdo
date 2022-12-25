@@ -50,8 +50,22 @@
       </code>
       <isFolder>true</isFolder>
       <content id="6d540d89-9565-4232-bc31-5056922fee42">
-        <name>ДоступностьКластера1С</name>
-        <description>Доступность кластера 1С</description>
+        <name>ДоступностьСервераАдминистрированияКластера</name>
+        <description>Доступность сервера администрирования кластера</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1c99c1c7-029d-4fe4-be2e-1e711928d01f">
+        <name>АвторизацияСервераАдминистрирования</name>
+        <description>Авторизация сервера администрирования</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="d41f3860-af86-4fac-a9b1-c3bade3ae372">
+        <name>АвторизацияКластера1С</name>
+        <description>Авторизация кластера 1С</description>
         <code xsi:type="core:StringValue">
           <value></value>
         </code>

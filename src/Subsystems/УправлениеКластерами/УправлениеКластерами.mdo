@@ -11,4 +11,5 @@
     <picture>CommonPicture.Сервер</picture>
   </picture>
   <content>Catalog.Кластеры1С</content>
+  <content>DataProcessor.УправлениеСерверами</content>
 </mdclass:Subsystem>

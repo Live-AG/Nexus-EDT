@@ -22,7 +22,6 @@
     <excludedCommands>MoveDown</excludedCommands>
     <excludedCommands>MoveUp</excludedCommands>
     <excludedCommands>SearchEverywhere</excludedCommands>
-    <excludedCommands>SearchHistory</excludedCommands>
     <excludedCommands>ShowRowRearrangement</excludedCommands>
     <items xsi:type="form:FormField">
       <name>_СписокРасширениеКонфигурации</name>

@@ -1085,20 +1085,20 @@
                 <autoFill>true</autoFill>
               </autoCommandBar>
               <handlers>
-                <event>OnActivateCell</event>
-                <name>ТаблицаЭлементовКластераПриАктивизацииЯчейки</name>
-              </handlers>
-              <handlers>
                 <event>DragCheck</event>
                 <name>ТаблицаЭлементовКластераПроверкаПеретаскивания</name>
+              </handlers>
+              <handlers>
+                <event>Drag</event>
+                <name>ТаблицаЭлементовКластераПеретаскивание</name>
               </handlers>
               <handlers>
                 <event>DragEnd</event>
                 <name>ТаблицаЭлементовКластераОкончаниеПеретаскивания</name>
               </handlers>
               <handlers>
-                <event>Drag</event>
-                <name>ТаблицаЭлементовКластераПеретаскивание</name>
+                <event>OnActivateCell</event>
+                <name>ТаблицаЭлементовКластераПриАктивизацииЯчейки</name>
               </handlers>
               <searchStringAddition>
                 <visible>true</visible>
