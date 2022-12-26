@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e8516b-39dc-4817-a638-b2ba7b6552f5">
-  <name>МониторингСостоянияОбъектов</name>
+  <name>ПроверкаСостоянияОбъектов</name>
   <synonym>
     <key>ru</key>
-    <value>Мониторинг состояния объектов</value>
+    <value>Проверка состояния объектов</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
