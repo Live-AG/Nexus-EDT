@@ -652,6 +652,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f02d401d-ed18-4d17-b119-c1ace44c9390">
+    <name>ФормаБлокировкиНачалаСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма блокировки начала сеансов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="e8297624-f23f-4f5f-bc43-6023fd4d54fa">
     <name>МакетПоказателей</name>
     <synonym>

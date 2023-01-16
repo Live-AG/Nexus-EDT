@@ -3359,6 +3359,10 @@
                   <segments>БлокировкаНачалаСеансов</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>БлокировкаНачалаСеансовПриИзменении</name>
+                </handlers>
                 <extendedTooltip>
                   <name>БлокировкаНачалаСеансовРасширеннаяПодсказка</name>
                   <id>337</id>
