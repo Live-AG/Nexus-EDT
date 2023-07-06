@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7306d86b-5e9a-4b63-89b9-2ff96188c314">
+  <name>АдминистрированиеЭлементовКластера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование элементов кластера</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

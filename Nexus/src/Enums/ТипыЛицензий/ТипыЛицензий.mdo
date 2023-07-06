@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c011f66f-bcd4-4079-ad24-49c09852c5da">
+  <producedTypes>
+    <refType typeId="f4f5d217-abe5-4f2e-ab6b-50ed81c9ed56" valueTypeId="8dc5bd84-c888-43e2-a47d-b92081c2de24"/>
+    <listType typeId="cb9ee5a6-3619-4e83-87e0-1ea29de517ef" valueTypeId="5c4541f1-3e0d-43e2-8dd2-53de7bcdf867"/>
+    <managerType typeId="5fd2a951-a706-4388-a211-456f2045409e" valueTypeId="9891021e-f163-4a71-b230-03ccc55ffba0"/>
+  </producedTypes>
+  <name>ТипыЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы лицензий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1f997ed7-a31d-4843-9a35-e201449c6bb7">
+    <name>Серверная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26fdc481-0796-479d-9107-d6440ff6954e">
+    <name>Клиентская</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентская</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b00f19b1-81a0-4838-952e-53706e958afc">
+    <name>Отраслевая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отраслевая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

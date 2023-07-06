@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aee2fa4-493b-4e0e-98a7-8b3ac60abfd8">
+  <producedTypes>
+    <selectionType typeId="0de5d562-19ad-4db7-95ea-ff5db3d2a8f2" valueTypeId="dae39005-db8d-41fd-ba80-68f0f8900b8a"/>
+    <listType typeId="de324927-ec68-4196-b0fd-e00c31ad6b24" valueTypeId="7e61a7e6-2850-4fa8-8ebd-1142613f2da3"/>
+    <managerType typeId="8e47b46f-afe9-4077-b134-ed4c9b46a302" valueTypeId="f8085b49-2d44-45b9-83fa-7c89b007c39d"/>
+    <recordSetType typeId="0bcea6ce-b1dc-4fc5-9d6d-29b40bc8d777" valueTypeId="31ff9c49-98d5-42e8-a64f-cf7003219e14"/>
+    <recordKeyType typeId="7e1c5984-c0a0-4537-9f76-e48583a6bf0a" valueTypeId="335f1d83-887f-4c84-80c5-e69ace6cda9c"/>
+    <recordType typeId="6302ecd8-7262-49a7-a559-ed89c66ceceb" valueTypeId="6475510c-fcf3-4a48-9e78-15320c413997"/>
+    <recordManagerType typeId="c4a378d1-b3d5-4543-95b5-19bc581c4f65" valueTypeId="174a88bc-9eb6-4f64-9898-a9c3d113d747"/>
+  </producedTypes>
+  <name>ЗначенияИзбранных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения избранных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="dfb2c4cb-6847-44ca-b49b-1610ae028114">
+    <name>ГруппаИзбранных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа избранных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыИзбранного</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d45dbcdf-be9f-4f62-8937-f39774ded4cb">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

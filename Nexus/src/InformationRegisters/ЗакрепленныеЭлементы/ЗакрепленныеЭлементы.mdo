@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91b75641-7bf8-4905-9054-90857b5fab9c">
+  <producedTypes>
+    <selectionType typeId="c3556a17-fb9f-4a52-b959-882c452e182a" valueTypeId="5edc9d10-8823-4cf4-9969-0c2e57e172fb"/>
+    <listType typeId="970132bf-70a8-4cdb-bb05-ea847c2d974b" valueTypeId="92d73af3-9348-4336-9a7a-c809909e9018"/>
+    <managerType typeId="eba1b937-02cf-48c4-8fa1-3f4664b70e13" valueTypeId="2c9f8c19-02ef-4a40-a6be-e81e3d1a9edd"/>
+    <recordSetType typeId="1ef7e64b-8e52-43d8-baa0-d8c5a630de7d" valueTypeId="07abc3bd-957f-4e89-babb-2395bb86a8c1"/>
+    <recordKeyType typeId="4603d0bd-705f-4873-99f5-fe2079b988a2" valueTypeId="b9e49a5a-4908-4fbe-ad49-8bbc629df1c0"/>
+    <recordType typeId="3fbd836a-65bd-4370-babf-74aae9107fa3" valueTypeId="2b0e7bc4-ca5d-49fe-a997-3bf441eacdb6"/>
+    <recordManagerType typeId="0138983d-dfde-4908-9b10-9884ba6a035b" valueTypeId="c72519c7-3519-4af7-a4d1-56a640cad1c2"/>
+  </producedTypes>
+  <name>ЗакрепленныеЭлементы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепленные элементы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5d325bb5-b6d9-47f5-b85e-02adb7ab6baf">
+    <name>НомерВГруппе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер в группе</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3c0f6470-b074-4c6d-9990-b0d0aa1a42c5">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="15c80400-b349-45a0-adb7-828a578ed3d4">
+    <name>ЭлементЗакрепления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент закрепления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыИзбранного</types>
+      <types>CatalogRef.Кластеры1С</types>
+      <types>CatalogRef.ИнформационныеБазы</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

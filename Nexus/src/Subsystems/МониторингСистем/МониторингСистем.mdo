@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ad50eeb-6181-4c0c-a60c-e3931e4fcf7a">
+  <name>МониторингСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг систем</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:Subsystem>

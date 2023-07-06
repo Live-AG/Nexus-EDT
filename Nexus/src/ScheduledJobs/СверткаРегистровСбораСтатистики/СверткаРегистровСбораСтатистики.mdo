@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96c5e5e1-8bee-49a7-be51-2f636799a68b">
+  <name>СверткаРегистровСбораСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свертка регистров сбора статистики</value>
+  </synonym>
+  <methodName>CommonModule.РегламентныеЗаданияПолученияДанных.СверткаРегистровСбораСтатистики</methodName>
+  <description>Свертка регистров сбора статистики</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

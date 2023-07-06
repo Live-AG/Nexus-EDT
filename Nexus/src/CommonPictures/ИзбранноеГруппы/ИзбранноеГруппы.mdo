@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67df17ce-e77d-4f65-97d5-55e4cb0a9a75">
+  <name>ИзбранноеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Избранное группы</value>
+  </synonym>
+</mdclass:CommonPicture>
