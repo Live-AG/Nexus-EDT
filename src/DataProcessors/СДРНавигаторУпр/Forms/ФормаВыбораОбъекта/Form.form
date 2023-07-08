@@ -16,7 +16,6 @@
       <segments>ДеревоОбъектов</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>HierarchicalList</excludedCommands>
     <excludedCommands>List</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ДеревоОбъектовИмя</name>

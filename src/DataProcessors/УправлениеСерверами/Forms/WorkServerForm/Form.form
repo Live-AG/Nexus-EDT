@@ -365,19 +365,7 @@
             <segments>IPPortRanges</segments>
           </dataPath>
           <titleLocation>Top</titleLocation>
-          <excludedCommands>CancelSearch</excludedCommands>
           <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>Find</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowMultipleSelection</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemIPPortRangeLowBound</name>
             <id>58</id>

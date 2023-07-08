@@ -10,6 +10,7 @@
     <value>Обработчики стандартных сценариев</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработчикиСтандартныхСценариев.Form.ФормаВыполненияСценария</defaultForm>
   <forms uuid="0ecb49db-4e38-451a-9fed-2550ba975697">
     <name>ПереносБазыВДругойКластер</name>
     <synonym>
@@ -28,6 +29,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="5aeceac1-1b4b-4fd2-8af3-ddaf3425d77c">
+    <name>ФормаВыполненияСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выполнения сценария</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="2663a980-9075-486f-8c60-ef2775f1b748">
     <name>Команда</name>
     <synonym>
@@ -35,6 +45,7 @@
       <value>Команда</value>
     </synonym>
     <group>ActionsPanelTools</group>
+    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:DataProcessor>

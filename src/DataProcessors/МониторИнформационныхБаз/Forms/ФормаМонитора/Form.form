@@ -1296,7 +1296,7 @@
                   <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <items xsi:type="form:Button">
-                  <name>Тест_ОбновитьРегистрациюБаз</name>
+                  <name>ОбновитьРегистрациюБаз</name>
                   <id>171</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1304,7 +1304,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>Тест_ОбновитьРегистрациюБазРасширеннаяПодсказка</name>
+                    <name>ОбновитьРегистрациюБазРасширеннаяПодсказка</name>
                     <id>172</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1318,24 +1318,125 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>Form.Command.Тест_ОбновитьРегистрациюБаз</commandName>
+                  <commandName>Form.Command.ОбновитьРегистрациюБаз</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
+                  <font xsi:type="core:AutoFont">
+                    <bold>true</bold>
+                  </font>
                   <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
-                <items xsi:type="form:Button">
-                  <name>ТаблицаЭлементовКластераКонтекстноеМенюЗакрепитьТекущийЭлемент</name>
-                  <id>180</id>
+                <items xsi:type="form:FormGroup">
+                  <name>ТаблицаЭлементовКластераКонтекстноеМенюГруппаЗакрепить</name>
+                  <id>290</id>
+                  <items xsi:type="form:Button">
+                    <name>ТаблицаЭлементовКластераКонтекстноеМенюЗакрепитьТекущийЭлемент</name>
+                    <id>180</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>ТаблицаЭлементовКластераКонтекстноеМенюЗакрепитьТекущийЭлементРасширеннаяПодсказка</name>
+                      <id>181</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.ЗакрепитьТекущийЭлемент</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
+                  <items xsi:type="form:Button">
+                    <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВверх</name>
+                    <id>186</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВверхРасширеннаяПодсказка</name>
+                      <id>187</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.ПереместитьЗакрепленноеВверх</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
+                  <items xsi:type="form:Button">
+                    <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВниз</name>
+                    <id>188</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВнизРасширеннаяПодсказка</name>
+                      <id>189</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.ПереместитьЗакрепленноеВниз</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Таблица элементов кластера контекстное меню группа закрепить</value>
+                  </title>
+                  <toolTip>
+                    <key>ru</key>
+                    <value>Таблица элементов кластера контекстное меню группа закрепить</value>
+                  </toolTip>
                   <extendedTooltip>
-                    <name>ТаблицаЭлементовКластераКонтекстноеМенюЗакрепитьТекущийЭлементРасширеннаяПодсказка</name>
-                    <id>181</id>
+                    <name>ТаблицаЭлементовКластераКонтекстноеМенюГруппаЗакрепитьРасширеннаяПодсказка</name>
+                    <id>291</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -1348,72 +1449,7 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>Form.Command.ЗакрепитьТекущийЭлемент</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВверх</name>
-                  <id>186</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВверхРасширеннаяПодсказка</name>
-                    <id>187</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.ПереместитьЗакрепленноеВверх</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВниз</name>
-                  <id>188</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ТаблицаЭлементовКластераКонтекстноеМенюПереместитьЗакрепленноеВнизРасширеннаяПодсказка</name>
-                    <id>189</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.ПереместитьЗакрепленноеВниз</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
+                  <extInfo xsi:type="form:ButtonGroupExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1440,7 +1476,7 @@
                 <segments>ТаблицаЭлементовКластера.ИндексСостояния</segments>
               </rowPictureDataPath>
               <rowsPicture xsi:type="core:PictureRef">
-                <picture>CommonPicture.СерверНаборСтатический</picture>
+                <picture>CommonPicture.СерверНабор</picture>
               </rowsPicture>
               <borderColor xsi:type="core:ColorRef">
                 <color>Style.FormBackColor</color>
@@ -1454,6 +1490,7 @@
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
                 <showRoot>true</showRoot>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2023,6 +2060,7 @@
                   <endDate>0001-01-01T00:00:00</endDate>
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2600,6 +2638,7 @@
                   <endDate>0001-01-01T00:00:00</endDate>
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -3240,16 +3279,19 @@
                 <name>ТаблицаИнформационныхБазКонтекстноеМенюГруппаЗапуск</name>
                 <id>269</id>
                 <items xsi:type="form:Button">
-                  <name>ТаблицаИнформационныхБазКонтекстноеМенюЗапуститьПредприятие</name>
-                  <id>259</id>
+                  <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыЗапуститьПредприятие</name>
+                  <id>294</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Items.ТаблицаИнформационныхБаз.CurrentData.Ссылка</segments>
+                  </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаИнформационныхБазКонтекстноеМенюЗапуститьПредприятиеРасширеннаяПодсказка</name>
-                    <id>260</id>
+                    <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыЗапуститьПредприятиеРасширеннаяПодсказка</name>
+                    <id>295</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -3262,7 +3304,7 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>Form.Command.ЗапуститьПредприятие</commandName>
+                  <commandName>Catalog.ИнформационныеБазы.Command.ЗапуститьПредприятие</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -3270,16 +3312,19 @@
                   <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
                 <items xsi:type="form:Button">
-                  <name>ТаблицаИнформационныхБазКонтекстноеМенюЗапуститьКонфигуратор</name>
-                  <id>261</id>
+                  <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыЗапуститьКонфигуратор</name>
+                  <id>296</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Items.ТаблицаИнформационныхБаз.CurrentData.Ссылка</segments>
+                  </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаИнформационныхБазКонтекстноеМенюЗапуститьКонфигураторРасширеннаяПодсказка</name>
-                    <id>262</id>
+                    <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыЗапуститьКонфигураторРасширеннаяПодсказка</name>
+                    <id>297</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -3292,7 +3337,7 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>Form.Command.ЗапуститьКонфигуратор</commandName>
+                  <commandName>Catalog.ИнформационныеБазы.Command.ЗапуститьКонфигуратор</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -3300,16 +3345,19 @@
                   <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
                 <items xsi:type="form:Button">
-                  <name>ТаблицаИнформационныхБазКонтекстноеМенюНастройкаЗапускаИБ</name>
-                  <id>267</id>
+                  <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыНастройкаЗапускаИБ</name>
+                  <id>292</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Items.ТаблицаИнформационныхБаз.CurrentData.Ссылка</segments>
+                  </dataPath>
                   <extendedTooltip>
-                    <name>ТаблицаИнформационныхБазКонтекстноеМенюНастройкаЗапускаИБРасширеннаяПодсказка</name>
-                    <id>268</id>
+                    <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыНастройкаЗапускаИБРасширеннаяПодсказка</name>
+                    <id>293</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -3322,7 +3370,7 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>Form.Command.НастройкаЗапускаИБ</commandName>
+                  <commandName>Catalog.ИнформационныеБазы.Command.НастройкаЗапускаИБ</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -3432,16 +3480,19 @@
                 <extInfo xsi:type="form:ButtonGroupExtInfo"/>
               </items>
               <items xsi:type="form:Button">
-                <name>ТаблицаИнформационныхБазКонтекстноеМенюПоледитьсяИБ</name>
-                <id>265</id>
+                <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыПоделитьсяПодключениемИБ</name>
+                <id>298</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.ТаблицаИнформационныхБаз.CurrentData.Ссылка</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ТаблицаИнформационныхБазКонтекстноеМенюПоледитьсяИБРасширеннаяПодсказка</name>
-                  <id>266</id>
+                  <name>ТаблицаИнформационныхБазКонтекстноеМенюСправочникИнформационныеБазыПоделитьсяПодключениемИБРасширеннаяПодсказка</name>
+                  <id>299</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3454,7 +3505,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Command.ПодедитьсяИБ</commandName>
+                <commandName>Catalog.ИнформационныеБазы.Command.ПоделитьсяПодключениемИБ</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3501,6 +3552,7 @@
               </period>
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
+              <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -4088,6 +4140,31 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
+	ПроверкиОбъектов.Объект КАК Объект,
+	МАКСИМУМ(ВЫБОР
+			КОГДА ПроверкиОбъектов.Правило.ТипРезультатаПроверки = ЗНАЧЕНИЕ(Перечисление.ТипРезультатаПроверкиОбъектов.Предупреждение)
+				ТОГДА 1
+			КОГДА ПроверкиОбъектов.Правило.ТипРезультатаПроверки = ЗНАЧЕНИЕ(Перечисление.ТипРезультатаПроверкиОбъектов.Ошибка)
+				ТОГДА 2
+			КОГДА ПроверкиОбъектов.Правило.ТипРезультатаПроверки = ЗНАЧЕНИЕ(Перечисление.ТипРезультатаПроверкиОбъектов.Информация)
+				ТОГДА 3
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ИндексПроверки
+ПОМЕСТИТЬ ВТ_Проверки
+ИЗ
+	РегистрСведений.ПроверкиОбъектов КАК ПроверкиОбъектов
+ГДЕ
+	ПроверкиОбъектов.Объект ССЫЛКА Справочник.Кластеры1С
+
+СГРУППИРОВАТЬ ПО
+	ПроверкиОбъектов.Объект
+
+ИНДЕКСИРОВАТЬ ПО
+	Объект
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
 	Кластеры1С.Ссылка КАК ЭлементКластера,
 	Кластеры1С.ВерсияПлатформы КАК ВерсияПлатформы,
 	Кластеры1С.Описание КАК Описание,
@@ -4096,8 +4173,8 @@
 	Кластеры1С.ИдентификаторКластера КАК ИдентификаторКластера,
 	ВЫБОР
 		КОГДА ВТ_ЗаданияОбъектов.ИдентификаторЗадания ЕСТЬ NULL
-			ТОГДА 1
-		ИНАЧЕ 0
+			ТОГДА ЕСТЬNULL(ВТ_Проверки.ИндексПроверки, 0)
+		ИНАЧЕ 4
 	КОНЕЦ КАК ИндексСостояния,
 	ЕСТЬNULL(ВТ_ЗакрепленныеЭлементы.НомерВГруппе, 100) КАК ПолеУпорядочивания,
 	ВЫБОР
@@ -4110,7 +4187,9 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ЗаданияОбъектов КАК ВТ_ЗаданияОбъектов
 		ПО Кластеры1С.Ссылка = ВТ_ЗаданияОбъектов.ИсточникЗадания
 		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ЗакрепленныеЭлементы КАК ВТ_ЗакрепленныеЭлементы
-		ПО Кластеры1С.Ссылка = ВТ_ЗакрепленныеЭлементы.ЭлементЗакрепления</queryText>
+		ПО Кластеры1С.Ссылка = ВТ_ЗакрепленныеЭлементы.ЭлементЗакрепления
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Проверки КАК ВТ_Проверки
+		ПО Кластеры1С.Ссылка = ВТ_Проверки.Объект</queryText>
       <mainTable>Catalog.Кластеры1С</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -4644,25 +4723,25 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Тест_ОбновитьРегистрациюБаз</name>
+    <name>ОбновитьРегистрациюБаз</name>
     <title>
       <key>ru</key>
-      <value>Тест обновить регистрацию баз</value>
+      <value>Обновить регистрацию баз</value>
     </title>
     <id>8</id>
     <toolTip>
       <key>ru</key>
-      <value>Тест обновить регистрацию баз</value>
+      <value>Обновить регистрацию баз</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.СоздатьПодключения</picture>
+      <picture>CommonPicture.ПоискИнформационныхБаз</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Тест_ОбновитьРегистрациюБаз</name>
+        <name>ОбновитьРегистрациюБаз</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -4837,102 +4916,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДобавитьИзбранное</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапуститьПредприятие</name>
-    <title>
-      <key>ru</key>
-      <value>Запустить Предприятие</value>
-    </title>
-    <id>17</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Запустить предприятие</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Предприятие_ЧБ</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗапуститьПредприятие</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗапуститьКонфигуратор</name>
-    <title>
-      <key>ru</key>
-      <value>Запустить Конфигуратор</value>
-    </title>
-    <id>18</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Запустить конфигуратор</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Конфигуратор_ЧБ</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗапуститьКонфигуратор</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПодедитьсяИБ</name>
-    <title>
-      <key>ru</key>
-      <value>Поледиться информационной базой</value>
-    </title>
-    <id>19</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Поледиться</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Поделиться</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПодедитьсяИБ</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НастройкаЗапускаИБ</name>
-    <title>
-      <key>ru</key>
-      <value>Настройка запуска</value>
-    </title>
-    <id>20</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Настройка запуска ИБ</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Setting</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>НастройкаЗапускаИБ</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

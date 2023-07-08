@@ -543,6 +543,171 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаЗапускПредприятия</name>
+          <id>612</id>
+          <items xsi:type="form:Button">
+            <name>СправочникИнформационныеБазыЗапуститьПредприятие</name>
+            <id>614</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Ref</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>СправочникИнформационныеБазыЗапуститьПредприятиеРасширеннаяПодсказка</name>
+              <id>615</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Catalog.ИнформационныеБазы.Command.ЗапуститьПредприятие</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>СправочникИнформационныеБазыЗапуститьКонфигуратор</name>
+            <id>616</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Ref</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>СправочникИнформационныеБазыЗапуститьКонфигураторРасширеннаяПодсказка</name>
+              <id>617</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Catalog.ИнформационныеБазы.Command.ЗапуститьКонфигуратор</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>СправочникИнформационныеБазыНастройкаЗапускаИБ</name>
+            <id>620</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Ref</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>СправочникИнформационныеБазыНастройкаЗапускаИБРасширеннаяПодсказка</name>
+              <id>621</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Catalog.ИнформационныеБазы.Command.НастройкаЗапускаИБ</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа запуск предприятия</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа запуск предприятия</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаЗапускПредприятияРасширеннаяПодсказка</name>
+            <id>613</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СправочникИнформационныеБазыПоделитьсяПодключениемИБ</name>
+          <id>618</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Ref</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СправочникИнформационныеБазыПоделитьсяПодключениемИБРасширеннаяПодсказка</name>
+            <id>619</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Catalog.ИнформационныеБазы.Command.ПоделитьсяПодключениемИБ</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <items xsi:type="form:Button">
           <name>РедактироватьЗаголовок</name>
           <id>557</id>
@@ -3341,10 +3506,10 @@
                 <id>335</id>
                 <title>
                   <key>ru</key>
-                  <value>Блокировка соединений</value>
+                  <value> </value>
                 </title>
                 <titleTextColor xsi:type="core:ColorRef">
-                  <color>Style.ЦветПустойГиперссылки</color>
+                  <color>Style.AccentColor</color>
                 </titleTextColor>
                 <titleFont xsi:type="core:FontRef">
                   <font>Style.NormalTextFont</font>
@@ -3395,6 +3560,58 @@
                 <showInFooter>true</showInFooter>
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo">
                   <checkBoxType>Switcher</checkBoxType>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>ЗаголовокБлокировки</name>
+                <id>598</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗаголовокБлокировкиРасширеннаяПодсказка</name>
+                  <id>600</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ЗаголовокБлокировкиКонтекстноеМеню</name>
+                  <id>599</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Style.ГиперссылкаЦвет</color>
+                </textColor>
+                <font xsi:type="core:FontRef">
+                  <font>Style.NormalTextFont</font>
+                  <height>9.0</height>
+                </font>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ЗаголовокБлокировкиНажатие</name>
+                  </handlers>
+                  <hyperlink>true</hyperlink>
+                  <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </items>
               <items xsi:type="form:Decoration">
@@ -3481,7 +3698,7 @@
               </extendedTooltip>
               <type>UsualGroup</type>
               <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
+                <group>AlwaysHorizontal</group>
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <showTitle>true</showTitle>
@@ -3824,7 +4041,7 @@
               </extendedTooltip>
               <type>UsualGroup</type>
               <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
+                <group>AlwaysHorizontal</group>
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <showTitle>true</showTitle>
@@ -5798,6 +6015,73 @@
         </borderColor>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ИдентификаторБазы</name>
+      <id>601</id>
+      <title>
+        <key>ru</key>
+        <value>ID</value>
+      </title>
+      <titleFont xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>8.0</height>
+      </titleFont>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ИдентификаторБазы</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИдентификаторБазыРасширеннаяПодсказка</name>
+        <id>603</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИдентификаторБазыКонтекстноеМеню</name>
+        <id>602</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <groupHorizontalAlign>Right</groupHorizontalAlign>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ИдентификаторБазыНажатие</name>
+        </handlers>
+        <maxWidth>25</maxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <hyperlink>true</hyperlink>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ГиперссылкаЦвет</color>
+        </textColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>8.0</height>
+        </font>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -6118,10 +6402,6 @@
   </attributes>
   <attributes>
     <name>БлокировкаНачалаСеансов</name>
-    <title>
-      <key>ru</key>
-      <value>Блокировка начала сеансов</value>
-    </title>
     <id>7</id>
     <valueType>
       <types>Boolean</types>
@@ -6146,6 +6426,21 @@
         <precision>5</precision>
       </numberQualifiers>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СтруктураПараметровБлокировки</name>
+    <title>
+      <key>ru</key>
+      <value>Структура параметров блокировки</value>
+    </title>
+    <id>8</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -6366,6 +6661,102 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>уд_Отладка</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗапуститьКонфигуратор</name>
+    <title>
+      <key>ru</key>
+      <value>Запустить Конфигуратор</value>
+    </title>
+    <id>10</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Запустить конфигуратор</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Конфигуратор_ЧБ</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗапуститьКонфигуратор</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗапуститьПредприятие</name>
+    <title>
+      <key>ru</key>
+      <value>Запустить Предприятие</value>
+    </title>
+    <id>11</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Запустить предприятие</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Предприятие_ЧБ</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗапуститьПредприятие</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоделитьсяПодключениемИБ</name>
+    <title>
+      <key>ru</key>
+      <value>Поделиться информационной базой</value>
+    </title>
+    <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Поледиться</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Поделиться</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоделитьсяПодключениемИБ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НастройкаЗапускаИБ</name>
+    <title>
+      <key>ru</key>
+      <value>Настройка запуска</value>
+    </title>
+    <id>13</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка запуска ИБ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Setting</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НастройкаЗапускаИБ</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -5,7 +5,7 @@
     <subsystems>Subsystem.УправлениеИнформационнымиБазами</subsystems>
     <subsystems>Subsystem.АдминистрированиеПользователей</subsystems>
     <subsystems>Subsystem.УчетПроектныхДанных</subsystems>
-    <subsystems>Subsystem.РаботаСоСкриптами</subsystems>
+    <subsystems>Subsystem.РаботаСоСценарияим</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

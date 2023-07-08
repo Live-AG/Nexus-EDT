@@ -680,7 +680,7 @@
     <name>ЗапуститьПредприятие</name>
     <synonym>
       <key>ru</key>
-      <value>Запустить предприятие</value>
+      <value>Запустить Предприятие</value>
     </synonym>
     <group>CommandGroup.ВыполнитьДействия</group>
     <commandParameterType>
@@ -688,14 +688,14 @@
     </commandParameterType>
     <representation>PictureAndText</representation>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
+      <picture>CommonPicture.Предприятие_ЧБ</picture>
     </picture>
   </commands>
   <commands uuid="accf8ed6-9ddb-4c87-953b-94e6790a4979">
     <name>ЗапуститьКонфигуратор</name>
     <synonym>
       <key>ru</key>
-      <value>Запустить конфигуратор</value>
+      <value>Запустить Конфигуратор</value>
     </synonym>
     <group>CommandGroup.ВыполнитьДействия</group>
     <commandParameterType>
@@ -703,20 +703,38 @@
     </commandParameterType>
     <representation>PictureAndText</representation>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
+      <picture>CommonPicture.Конфигуратор_ЧБ</picture>
     </picture>
   </commands>
-  <commands uuid="e5136065-e992-4a78-b57c-78d99c9692e1">
-    <name>СоздатьЯрлык</name>
+  <commands uuid="d44c4675-edcb-47e8-828c-848701dc57c9">
+    <name>НастройкаЗапускаИБ</name>
     <synonym>
       <key>ru</key>
-      <value>Создать ярлык</value>
+      <value>Настройка запуска</value>
     </synonym>
     <group>CommandGroup.ВыполнитьДействия</group>
     <commandParameterType>
       <types>CatalogRef.ИнформационныеБазы</types>
     </commandParameterType>
     <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Setting</picture>
+    </picture>
+  </commands>
+  <commands uuid="e5136065-e992-4a78-b57c-78d99c9692e1">
+    <name>ПоделитьсяПодключениемИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поделиться подключением</value>
+    </synonym>
+    <group>CommandGroup.ВыполнитьДействия</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Поделиться</picture>
+    </picture>
   </commands>
   <commands uuid="1c9c9a8f-2ce0-4626-9334-375dd4adc679">
     <name>Пользователи</name>

@@ -498,9 +498,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>0:73090465-d840-4e3b-8393-cdd4cd74e841</picture>
-            </picture>
             <hyperlink>true</hyperlink>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>

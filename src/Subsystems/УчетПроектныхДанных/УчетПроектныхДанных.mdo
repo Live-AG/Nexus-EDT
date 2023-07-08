@@ -11,4 +11,6 @@
     <picture>CommonPicture.ПроектЖурнал</picture>
   </picture>
   <content>Catalog.Проекты</content>
+  <content>Catalog.РолиУчастниковПроектов</content>
+  <content>Catalog.ПроектыПрисоединенныеФайлы</content>
 </mdclass:Subsystem>

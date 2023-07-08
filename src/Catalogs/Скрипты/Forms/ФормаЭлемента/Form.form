@@ -518,21 +518,7 @@
           <segments>Объект.Переменные</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>CancelSearch</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>Find</excludedCommands>
-        <excludedCommands>FindByCurrentValue</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SearchEverywhere</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>ShowMultipleSelection</excludedCommands>
-        <excludedCommands>ShowRowRearrangement</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ПеременныеПараметр</name>
           <id>26</id>

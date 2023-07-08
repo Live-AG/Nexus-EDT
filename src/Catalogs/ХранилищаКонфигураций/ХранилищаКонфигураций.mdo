@@ -19,6 +19,9 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -30,6 +33,21 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="dc5bda46-8e79-4b32-a7b7-af80c281f813">
+    <name>ТипХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип хранилища</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыХранилища</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="1745a48e-148b-49dd-a2b1-af3bcec39a66">
     <name>ПутьКХранилищуКонфигурации</name>
     <synonym>
@@ -86,6 +104,34 @@
       </synonym>
       <type>
         <types>CatalogRef.ПользователиИБ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f8d8d040-ce40-4cd9-92b1-67684f9b8fcd">
+    <producedTypes>
+      <objectType typeId="4f080c0b-5e43-4101-82e2-e6bf12a82caf" valueTypeId="01b8bd04-898e-484e-b029-18bdfb028dea"/>
+      <rowType typeId="0656ac23-7376-4538-8ec0-efc8455cf651" valueTypeId="baafdd52-3e1b-4243-b8f2-0673faba745c"/>
+    </producedTypes>
+    <name>ВеткиGitРепозитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ветки git-репозитория</value>
+    </synonym>
+    <attributes uuid="34461680-04a5-4c68-8059-e2c65f3cef36">
+      <name>ИмяВетки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя ветки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

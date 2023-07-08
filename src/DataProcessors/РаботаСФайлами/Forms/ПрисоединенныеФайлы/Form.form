@@ -2083,7 +2083,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>6:c0519548-2a9a-44de-a25e-faf01e089d4d</commandName>
+              <commandName>0</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2113,7 +2113,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>6:44ad3ec9-f3c2-4913-9224-5f9fb6418743</commandName>
+              <commandName>0</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2192,6 +2192,7 @@
           </period>
           <restoreCurrentRow>true</restoreCurrentRow>
           <topLevelParent xsi:type="core:UndefinedValue"/>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
           <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
         </extInfo>
       </items>

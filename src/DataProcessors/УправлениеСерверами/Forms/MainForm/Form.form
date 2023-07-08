@@ -97,17 +97,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>ShowRowRearrangement</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ClusterTreePictureIndex</name>
           <id>976</id>
@@ -1075,18 +1064,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>CancelSearch</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemEmptyTableNullItem</name>
             <id>502</id>
@@ -1365,14 +1342,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemConnectionsTableInfobase</name>
             <id>652</id>
@@ -2725,14 +2694,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemSessionTableInfobase</name>
             <id>1068</id>
@@ -5360,13 +5321,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemLocksTableDescription</name>
             <id>820</id>
@@ -6085,15 +6039,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowMultipleSelection</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemTableLimitsName</name>
             <id>844</id>
@@ -6534,16 +6479,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowMultipleSelection</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemStandartInfoTableName</name>
             <id>856</id>
@@ -6934,16 +6869,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowMultipleSelection</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemWorkProcessTableComputer</name>
             <id>865</id>
@@ -7627,16 +7552,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowMultipleSelection</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemClusterManagerTableDescription</name>
             <id>889</id>
@@ -9765,14 +9680,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>ShowMultipleSelection</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ItemAssignmentRuleTablePriority</name>
             <id>904</id>

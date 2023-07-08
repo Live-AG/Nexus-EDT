@@ -3844,13 +3844,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>_ЗависимыеОбъектыИмя</name>
             <id>311</id>

@@ -73,11 +73,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ДеревоОбъектовИмя</name>
             <id>18</id>
@@ -5658,13 +5653,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>_СписокСеансовГруппаСеанс</name>
             <id>643</id>
@@ -7098,13 +7086,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>ShowRowRearrangement</excludedCommands>
           <items xsi:type="form:FormField">
             <name>_СписокСоединенийАктивность</name>
             <id>669</id>
@@ -7975,7 +7956,6 @@
           <segments>ДеревоНастроек</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>HierarchicalList</excludedCommands>
         <excludedCommands>List</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ДеревоНастроекПредставление</name>
@@ -8301,9 +8281,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ТабНастройкиКлючНастроек</name>
           <id>128</id>

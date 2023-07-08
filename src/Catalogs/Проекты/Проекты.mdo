@@ -135,6 +135,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a0f3ff16-ba84-4894-85b5-1ca682431b78">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="984322f5-f6cf-4f65-8096-d942132b12a7">
     <producedTypes>
       <objectType typeId="f801bbdd-fa99-4b19-ba8e-18148d4576e9" valueTypeId="892825ed-899b-4fd7-a8a9-db994a62408d"/>
@@ -153,6 +169,37 @@
       </synonym>
       <type>
         <types>CatalogRef.ПользователиИБ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a615a3ae-ae4d-426c-9823-ba71e4679313">
+      <name>РольНаПроекте</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль на проекте</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РолиУчастниковПроектов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bf85bc96-a372-42cb-81a8-db262a8eae3c">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

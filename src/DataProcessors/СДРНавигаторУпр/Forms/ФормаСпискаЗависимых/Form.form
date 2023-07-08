@@ -154,11 +154,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>ShowRowRearrangement</excludedCommands>
       <autoCommandBar>
         <name>_СписокЗаписейКоманднаяПанель</name>
         <id>3</id>
@@ -742,11 +737,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>ShowRowRearrangement</excludedCommands>
       <items xsi:type="form:FormField">
         <name>_ДеревоОбъектовСсылка</name>
         <id>36</id>

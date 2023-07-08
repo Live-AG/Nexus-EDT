@@ -71,4 +71,5 @@
   <content>DataProcessor.ПанельАдминистрированияNexus</content>
   <content>InformationRegister.ЗакрепленныеЭлементы</content>
   <content>DataProcessor.ИмпортИзActiveDirectory</content>
+  <content>Catalog.Лицензии1С</content>
 </mdclass:Subsystem>

@@ -12,7 +12,6 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="add303a9-c01c-4494-b498-e602db3ee313"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="73bab8aa-5764-4252-8271-3dc1124cecf8"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="52ac47d8-20e9-4440-a91a-643cc854585f"/>
-  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
@@ -60,7 +59,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.УправлениеКластерами</subsystems>
   <subsystems>Subsystem.АдминистрированиеПользователей</subsystems>
-  <subsystems>Subsystem.РаботаСоСкриптами</subsystems>
+  <subsystems>Subsystem.РаботаСоСценарияим</subsystems>
   <subsystems>Subsystem.УчетПроектныхДанных</subsystems>
   <subsystems>Subsystem.МониторингСистем</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
@@ -413,7 +412,6 @@
   <commonPictures>CommonPicture.СерверНабор</commonPictures>
   <commonPictures>CommonPicture.РаботаСоСкриптами</commonPictures>
   <commonPictures>CommonPicture.ДобавитьНовыйЭлемент</commonPictures>
-  <commonPictures>CommonPicture.СерверНаборСтатический</commonPictures>
   <commonPictures>CommonPicture.ИзбранноеНабор</commonPictures>
   <commonPictures>CommonPicture.ИзбранноеГруппы</commonPictures>
   <commonPictures>CommonPicture.ПользовательНабор</commonPictures>
@@ -427,6 +425,8 @@
   <commonPictures>CommonPicture.ИзменитьЗаготовок</commonPictures>
   <commonPictures>CommonPicture.СкопироватьВБуфер</commonPictures>
   <commonPictures>CommonPicture.Поделиться</commonPictures>
+  <commonPictures>CommonPicture.ПоискИнформационныхБаз</commonPictures>
+  <commonPictures>CommonPicture.КартинкаМинус</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
@@ -753,8 +753,8 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСПNexus</commonModules>
   <commonModules>CommonModule.АдминистрированиеИнформационныхБаз</commonModules>
-  <commonModules>CommonModule.АдминистрированиеСерверов</commonModules>
-  <commonModules>CommonModule.АдминистрированиеСеансов</commonModules>
+  <commonModules>CommonModule.удал_АдминистрированиеСерверов</commonModules>
+  <commonModules>CommonModule.АдминистрированиеЭлементовКластера</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияПолученияДанных</commonModules>
   <commonModules>CommonModule.РаботаСБуферомОбменаКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСкриптамиСервер</commonModules>
@@ -1100,6 +1100,10 @@
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ГруппыИзбранного</catalogs>
   <catalogs>Catalog.ПравилаПроверкиОбъектов</catalogs>
+  <catalogs>Catalog.Лицензии1С</catalogs>
+  <catalogs>Catalog.Операции</catalogs>
+  <catalogs>Catalog.РолиУчастниковПроектов</catalogs>
+  <catalogs>Catalog.ПроектыПрисоединенныеФайлы</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -1166,6 +1170,8 @@
   <enums>Enum.ТипыВебСерверов</enums>
   <enums>Enum.ПриложениеЗапускаСкрипта</enums>
   <enums>Enum.ТипРезультатаПроверкиОбъектов</enums>
+  <enums>Enum.ТипыЛицензий</enums>
+  <enums>Enum.ТипыХранилища</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
@@ -1206,6 +1212,7 @@
   <dataProcessors>DataProcessor.СДРКонсольЗапросовХ</dataProcessors>
   <dataProcessors>DataProcessor.ИмпортИзActiveDirectory</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСерверами</dataProcessors>
+  <dataProcessors>DataProcessor.ПомощникСозданияСкриптов</dataProcessors>
   <informationRegisters>InformationRegister.СоответствиеПользователейИБ</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>

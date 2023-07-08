@@ -596,7 +596,7 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>Catalog.ИнформационныеБазы.Command.СоздатьЯрлык</command>
+        <command>Catalog.ИнформационныеБазы.Command.ПоделитьсяПодключениемИБ</command>
         <userVisible/>
       </cmiFragmentRecord>
     </commandBar>

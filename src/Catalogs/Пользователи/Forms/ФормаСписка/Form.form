@@ -1651,6 +1651,7 @@
                   <endDate>0001-01-01T00:00:00</endDate>
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
@@ -2349,6 +2350,7 @@
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
                 <showRoot>true</showRoot>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                 <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
               </extInfo>
             </items>
@@ -3109,6 +3111,7 @@
             </period>
             <topLevelParent xsi:type="core:UndefinedValue"/>
             <showRoot>true</showRoot>
+            <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
           </extInfo>
         </items>

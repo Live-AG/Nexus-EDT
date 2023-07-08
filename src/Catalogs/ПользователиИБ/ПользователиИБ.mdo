@@ -122,14 +122,14 @@
       <name>DefUser</name>
       <description>DefUser</description>
       <code xsi:type="core:StringValue">
-        <value>000000002</value>
+        <value></value>
       </code>
     </items>
     <items id="f7f7f221-faf0-4bdc-8c3b-5cfd41fa6195">
       <name>Администратор</name>
       <description>Администратор</description>
       <code xsi:type="core:StringValue">
-        <value>000000001</value>
+        <value></value>
       </code>
     </items>
   </predefined>
