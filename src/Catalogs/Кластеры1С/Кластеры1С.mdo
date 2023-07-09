@@ -30,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Кластеры1С.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultObjectForm>Catalog.Кластеры1С.Form.ФормаПросмотра</defaultObjectForm>
   <attributes uuid="11969d12-0cb7-433b-a597-7e8a6a8c96e4">
     <name>АдресСервераАдминистрирования</name>
     <synonym>
