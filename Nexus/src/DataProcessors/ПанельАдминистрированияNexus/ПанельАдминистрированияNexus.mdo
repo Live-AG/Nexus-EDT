@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e06df3a0-0852-4806-8d59-5673bc2b3da9">
+  <producedTypes>
+    <objectType typeId="2f2647f6-1489-463c-9c58-b85fc955da53" valueTypeId="13cc656f-5329-4435-9938-397e35f51529"/>
+    <managerType typeId="905932fa-ab9b-4b71-90d1-f57605cc0165" valueTypeId="b40b631e-9d81-42bc-b2a2-1fe257c2954f"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияNexus</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования Nexus</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="e302de58-dab4-4a57-8fb5-7fdccfba012c">
+    <name>ФормаНастроекУправленияБазами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки управления информационными базами</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="dbf44d0c-ed4e-4fb4-ba00-3e6608f9f9eb">
+    <name>НастройкиУправленияБазами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки управления базами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

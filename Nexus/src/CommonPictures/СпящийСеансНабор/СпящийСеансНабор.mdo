@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10deee68-9a22-4a10-a977-bc84487be0ed">
+  <name>СпящийСеансНабор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спящий сеанс набор</value>
+  </synonym>
+</mdclass:CommonPicture>

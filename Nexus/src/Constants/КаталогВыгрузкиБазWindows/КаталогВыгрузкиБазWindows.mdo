@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="589fb2e7-fff5-4ace-99de-b47e197ea454">
+  <producedTypes>
+    <managerType typeId="3721004b-c9d6-4e8c-887e-84d4733f501a" valueTypeId="b1515602-0d50-468c-889d-231879101cac"/>
+    <valueManagerType typeId="2c2b9163-d7c3-4a2a-9151-babaf5f312db" valueTypeId="6ae6edd1-b2de-4135-a49d-06a81d18834c"/>
+    <valueKeyType typeId="0003baef-e29a-4a91-9138-8585b198a3c7" valueTypeId="6c273f78-7461-4697-a88a-6959b00b50b4"/>
+  </producedTypes>
+  <name>КаталогВыгрузкиБазWindows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог выгрузки баз (Windows)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

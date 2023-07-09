@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d941739d-e158-4c00-9e21-13d5f0a23b11">
+  <name>УчетПроектныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет проектных данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПроектЖурнал</picture>
+  </picture>
+  <content>Catalog.Проекты</content>
+  <content>Catalog.РолиУчастниковПроектов</content>
+  <content>Catalog.ПроектыПрисоединенныеФайлы</content>
+</mdclass:Subsystem>
