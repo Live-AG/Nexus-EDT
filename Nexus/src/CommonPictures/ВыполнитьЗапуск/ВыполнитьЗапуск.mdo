@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcc12372-a8a3-4784-a8cd-709a7bb94d7b">
-  <name>ВыполнитьЗапуск</name>
-  <synonym>
-    <key>ru</key>
-    <value>Выполнить запуск</value>
-  </synonym>
-</mdclass:CommonPicture>

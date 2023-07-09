@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0abfc6a4-17bc-42f3-9984-a888b8681c55">
-  <name>РазрывСоединения</name>
-  <synonym>
-    <key>ru</key>
-    <value>Разрыв соединения</value>
-  </synonym>
-</mdclass:CommonPicture>
