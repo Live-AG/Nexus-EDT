@@ -18,6 +18,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>https://infostart.ru/profile/56522/</vendor>
   <version>1.0.1.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
