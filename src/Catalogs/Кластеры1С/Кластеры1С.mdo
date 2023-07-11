@@ -70,10 +70,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7628fa20-0893-4459-9df3-96433ca7c0a7">
-    <name>ПользовательЦентральногоСервер</name>
+    <name>ПользовательЦентральногоСервера</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь центрального сервер</value>
+      <value>Пользователь центрального сервера</value>
     </synonym>
     <type>
       <types>String</types>

@@ -2117,6 +2117,15 @@
         <index>3</index>
         <userVisible/>
       </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>InformationRegister.ПроверкиОбъектов.StandardCommand.OpenByValue.Объект</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <group>FormNavigationPanelGoTo</group>
+        <index>4</index>
+        <userVisible/>
+      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
   </commandInterface>

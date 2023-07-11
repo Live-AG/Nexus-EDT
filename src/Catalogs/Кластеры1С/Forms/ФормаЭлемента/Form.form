@@ -379,7 +379,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПользовательЦентральногоСервер</segments>
+            <segments>Объект.ПользовательЦентральногоСервера</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПользовательЦентральногоСерверРасширеннаяПодсказка</name>
@@ -1473,10 +1473,6 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
   </handlers>
   <handlers>
     <event>OnCreateAtServer</event>

@@ -1036,6 +1036,10 @@
                     <color>Style.ЦветПустойГиперссылки</color>
                   </textColor>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <handlers>
+                      <event>Click</event>
+                      <name>ДекорацияВерсияКонфигурацииНеЗаполненоНажатие</name>
+                    </handlers>
                     <hyperlink>true</hyperlink>
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
@@ -5077,136 +5081,28 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </items>
-              <items xsi:type="form:FormGroup">
-                <name>ГруппаКластерИмяДБ</name>
-                <id>572</id>
-                <items xsi:type="form:FormField">
-                  <name>ИмяДБ</name>
-                  <id>16</id>
-                  <title>
-                    <key>ru</key>
-                    <value>Имя</value>
-                  </title>
-                  <titleFont xsi:type="core:FontRef">
-                    <font>Style.NormalTextFont</font>
-                    <height>9.0</height>
-                  </titleFont>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <dataPath xsi:type="form:DataPath">
-                    <segments>Объект.ИмяИБ</segments>
-                  </dataPath>
-                  <extendedTooltip>
-                    <name>ИмяДБРасширеннаяПодсказка</name>
-                    <id>18</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <contextMenu>
-                    <name>ИмяДБКонтекстноеМеню</name>
-                    <id>17</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <autoFill>true</autoFill>
-                  </contextMenu>
-                  <type>LabelField</type>
-                  <editMode>EnterOnInput</editMode>
-                  <showInHeader>true</showInHeader>
-                  <headerHorizontalAlign>Left</headerHorizontalAlign>
-                  <showInFooter>true</showInFooter>
-                  <extInfo xsi:type="form:LabelFieldExtInfo">
-                    <handlers>
-                      <event>Click</event>
-                      <name>ИмяДБНажатие</name>
-                    </handlers>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <hyperlink>true</hyperlink>
-                    <textColor xsi:type="core:ColorRef">
-                      <color>Style.ГиперссылкаЦвет</color>
-                    </textColor>
-                    <backColor xsi:type="core:ColorRef">
-                      <color>Web.WhiteSmoke</color>
-                    </backColor>
-                  </extInfo>
-                </items>
-                <items xsi:type="form:Decoration">
-                  <name>ИмяДБВБуфер</name>
-                  <id>592</id>
-                  <title>
-                    <key>ru</key>
-                    <value>Имя ДБВБуфер</value>
-                  </title>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ИмяДБВБуферРасширеннаяПодсказка</name>
-                    <id>594</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <contextMenu>
-                    <name>ИмяДБВБуферКонтекстноеМеню</name>
-                    <id>593</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <autoFill>true</autoFill>
-                  </contextMenu>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.СкопироватьВБуфер</picture>
-                    </picture>
-                    <fileDragMode>AsFileRef</fileDragMode>
-                  </extInfo>
-                </items>
+              <items xsi:type="form:FormField">
+                <name>ИмяДБ</name>
+                <id>16</id>
+                <title>
+                  <key>ru</key>
+                  <value>Имя</value>
+                </title>
+                <titleFont xsi:type="core:FontRef">
+                  <font>Style.NormalTextFont</font>
+                  <height>9.0</height>
+                </titleFont>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <title>
-                  <key>ru</key>
-                  <value>Группа кластер имя ДБ</value>
-                </title>
-                <toolTip>
-                  <key>ru</key>
-                  <value>Группа кластер имя ДБ</value>
-                </toolTip>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.ИмяИБ</segments>
+                </dataPath>
                 <extendedTooltip>
-                  <name>ГруппаКластерИмяДБРасширеннаяПодсказка</name>
-                  <id>573</id>
+                  <name>ИмяДБРасширеннаяПодсказка</name>
+                  <id>18</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -5219,13 +5115,35 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <type>UsualGroup</type>
-                <extInfo xsi:type="form:UsualGroupExtInfo">
-                  <group>AlwaysHorizontal</group>
-                  <showLeftMargin>true</showLeftMargin>
-                  <united>true</united>
-                  <throughAlign>Auto</throughAlign>
-                  <currentRowUse>Auto</currentRowUse>
+                <contextMenu>
+                  <name>ИмяДБКонтекстноеМеню</name>
+                  <id>17</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>LabelField</type>
+                <editMode>EnterOnInput</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:LabelFieldExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ИмяДБНажатие</name>
+                  </handlers>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <hyperlink>true</hyperlink>
+                  <textColor xsi:type="core:ColorRef">
+                    <color>Style.ГиперссылкаЦвет</color>
+                  </textColor>
+                  <backColor xsi:type="core:ColorRef">
+                    <color>Web.WhiteSmoke</color>
+                  </backColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
