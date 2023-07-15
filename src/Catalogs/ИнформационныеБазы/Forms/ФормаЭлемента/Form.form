@@ -628,7 +628,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ВерсияКонфигурации</segments>
+          <segments>Объект.Конфигурация</segments>
         </dataPath>
         <extendedTooltip>
           <name>КонфигурацияРасширеннаяПодсказка</name>
@@ -1473,5 +1473,10 @@
       </cmiFragmentRecord>
     </commandBar>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
+  </extInfo>
 </form:Form>

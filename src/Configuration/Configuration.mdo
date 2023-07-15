@@ -1049,7 +1049,7 @@
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВебСерверы</catalogs>
-  <catalogs>Catalog.ВерсииКонфигураций</catalogs>
+  <catalogs>Catalog.удВерсииКонфигураций</catalogs>
   <catalogs>Catalog.ВерсииПлатформы</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -1173,6 +1173,7 @@
   <enums>Enum.ТипРезультатаПроверкиОбъектов</enums>
   <enums>Enum.ТипыЛицензий</enums>
   <enums>Enum.ТипыХранилища</enums>
+  <enums>Enum.ТипыФайловПоставкиКонфигурации</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>

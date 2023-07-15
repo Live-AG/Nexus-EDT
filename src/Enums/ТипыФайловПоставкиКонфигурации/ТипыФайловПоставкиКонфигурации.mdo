@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17d0ea4f-95e0-44a4-8629-da7d1eca35a0">
+  <producedTypes>
+    <refType typeId="378ae1c3-015d-47cc-b7b4-d14cd7bc5f41" valueTypeId="b56b5903-2333-4af2-bca4-6b5d7f3554cd"/>
+    <listType typeId="2c80d654-2c6b-4ee3-8b33-7b5e7fb95d8e" valueTypeId="f9cf87fc-d10f-4f29-90d8-923d2682761d"/>
+    <managerType typeId="4b87ee00-15d4-4e69-ac54-ef159525e4ba" valueTypeId="6799093f-127e-408d-a016-ef39754ae7da"/>
+  </producedTypes>
+  <name>ТипыФайловПоставкиКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы файлов поставки конфигурации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d7b62366-6d3a-431a-93cc-739444875f95">
+    <name>cf</name>
+    <synonym>
+      <key>ru</key>
+      <value>cf</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="794a4245-4ca5-45f8-802b-de7bdf13941e">
+    <name>cfu</name>
+    <synonym>
+      <key>ru</key>
+      <value>cfu</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37fa90b4-2bfb-421b-a4a7-f0f592a09cd7">
+    <name>dt</name>
+    <synonym>
+      <key>ru</key>
+      <value>dt</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

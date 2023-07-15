@@ -7,13 +7,13 @@
     <listType typeId="813077f2-cae4-4358-b66e-7e1643c85a9f" valueTypeId="09971493-1914-420a-b79a-a721a19b2149"/>
     <managerType typeId="caf0b4b9-686f-48fe-8e12-1c9be93e40f2" valueTypeId="f36b59dd-b9f8-4b28-93ec-aad7a65634fa"/>
   </producedTypes>
-  <name>ВерсииКонфигураций</name>
+  <name>удВерсииКонфигураций</name>
   <synonym>
     <key>ru</key>
-    <value>Версии конфигураций</value>
+    <value>Уд версии конфигураций</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВерсииКонфигураций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удВерсииКонфигураций.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -102,67 +102,10 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Конфигурации</owners>
   <descriptionLength>10</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Catalog.ВерсииКонфигураций.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.ВерсииКонфигураций.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="752e54ce-b61a-47b7-919f-c7497332a23f">
-    <name>РазмерКонфигурации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Размер конфигурации</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4531d3e2-f35c-4cc6-9439-d48b6d6107a1">
-    <name>РазмерДемоБазы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Размер демо базы</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="cc99e260-c53f-4087-9989-3ccbc7f6b04d">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="bb51bac8-a227-4235-a871-7c05238848ea">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Catalog>

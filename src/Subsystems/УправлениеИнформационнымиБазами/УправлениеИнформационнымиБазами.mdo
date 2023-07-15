@@ -20,4 +20,5 @@
   <content>Catalog.ХранилищаКонфигураций</content>
   <content>Enum.ТипыВебСерверов</content>
   <content>InformationRegister.ПроверкиОбъектов</content>
+  <content>Catalog.Конфигурации</content>
 </mdclass:Subsystem>

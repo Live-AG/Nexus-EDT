@@ -22,7 +22,6 @@
   <fullTextSearch>Use</fullTextSearch>
   <characteristicExtValues>Catalog.ДополниетельныеЗначенияКонтекста</characteristicExtValues>
   <type>
-    <types>CatalogRef.ВерсииКонфигураций</types>
     <types>CatalogRef.СерверыБД</types>
     <types>Boolean</types>
     <types>CatalogRef.ИнформационныеБазы</types>

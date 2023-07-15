@@ -319,13 +319,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4234c6cd-2662-4071-9717-0d23cd24e425">
-    <name>ВерсияКонфигурации</name>
+    <name>Конфигурация</name>
     <synonym>
       <key>ru</key>
-      <value>Версия конфигурации</value>
+      <value>Конфигурация</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВерсииКонфигураций</types>
+      <types>CatalogRef.Конфигурации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

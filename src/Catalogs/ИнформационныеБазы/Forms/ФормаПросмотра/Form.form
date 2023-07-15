@@ -944,21 +944,25 @@
             <name>ГруппаСостояниеЛево</name>
             <id>219</id>
             <items xsi:type="form:FormGroup">
-              <name>ГруппаВерсияКонфигурации</name>
+              <name>ГруппаКонфигурация</name>
               <id>393</id>
               <items xsi:type="form:FormGroup">
-                <name>ГруппаВерсияКонфигурацииПустая</name>
+                <name>ГруппаКонфигурацияПустая</name>
                 <id>483</id>
                 <items xsi:type="form:Decoration">
-                  <name>ДекорацияВерсияКонфигурацииВнимание</name>
+                  <name>ДекорацияКонфигурацияВнимание</name>
                   <id>485</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Декорация конфигурация внимание</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ДекорацияВерсияКонфигурацииВниманиеРасширеннаяПодсказка</name>
+                    <name>ДекорацияКонфигурацияВниманиеРасширеннаяПодсказка</name>
                     <id>487</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -973,7 +977,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ДекорацияВерсияКонфигурацииВниманиеКонтекстноеМеню</name>
+                    <name>ДекорацияКонфигурацияВниманиеКонтекстноеМеню</name>
                     <id>486</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -993,7 +997,7 @@
                   </extInfo>
                 </items>
                 <items xsi:type="form:Decoration">
-                  <name>ДекорацияВерсияКонфигурацииНеЗаполнено</name>
+                  <name>ДекорацияКонфигурацияНеЗаполнено</name>
                   <id>488</id>
                   <title>
                     <key>ru</key>
@@ -1005,7 +1009,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ДекорацияВерсияКонфигурацииНеЗаполненоРасширеннаяПодсказка</name>
+                    <name>ДекорацияКонфигурацияНеЗаполненоРасширеннаяПодсказка</name>
                     <id>490</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1020,7 +1024,7 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ДекорацияВерсияКонфигурацииНеЗаполненоКонтекстноеМеню</name>
+                    <name>ДекорацияКонфигурацияНеЗаполненоКонтекстноеМеню</name>
                     <id>489</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1049,12 +1053,16 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Группа конфигурация пустая</value>
+                </title>
                 <toolTip>
                   <key>ru</key>
                   <value>Группа конфигурация пустая</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаВерсияКонфигурацииПустаяРасширеннаяПодсказка</name>
+                  <name>ГруппаКонфигурацияПустаяРасширеннаяПодсказка</name>
                   <id>484</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1078,7 +1086,7 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>ВерсияКонфигурации</name>
+                <name>Конфигурация</name>
                 <id>491</id>
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ЦветПустойГиперссылки</color>
@@ -1093,7 +1101,7 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.ВерсияКонфигурации</segments>
+                  <segments>Объект.Конфигурация</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <toolTip>
@@ -1101,7 +1109,7 @@
                   <value>&lt;Заполнить подсказку></value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ВерсияКонфигурацииРасширеннаяПодсказка</name>
+                  <name>КонфигурацияРасширеннаяПодсказка</name>
                   <id>493</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1116,7 +1124,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ВерсияКонфигурацииКонтекстноеМеню</name>
+                  <name>КонфигурацияКонтекстноеМеню</name>
                   <id>492</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1211,7 +1219,7 @@
                 <value>Группа период жизни</value>
               </toolTip>
               <extendedTooltip>
-                <name>ГруппаВерсияКонфигурацииРасширеннаяПодсказка</name>
+                <name>ГруппаКонфигурацияРасширеннаяПодсказка</name>
                 <id>394</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
