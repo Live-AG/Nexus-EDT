@@ -115,6 +115,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="33f5a561-48b5-418a-9c80-f88e7bf0c0a2">
+    <name>ПутьККаталогу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="e935e21b-c461-483f-8ee6-777ce2ac5f7d">
     <producedTypes>
       <objectType typeId="1168fd52-a4f5-4a9b-af14-290e23278942" valueTypeId="b0dc7fca-483a-4e8e-b4a4-dea11b8ff786"/>
