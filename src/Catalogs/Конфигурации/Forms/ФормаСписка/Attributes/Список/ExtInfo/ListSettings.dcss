@@ -12,6 +12,8 @@
 		<viewMode>Normal</viewMode>
 		<userSettingID>2d839519-663a-4ebf-a546-21dc94fa8313</userSettingID>
 	</conditionalAppearance>
+	<item xsi:type="StructureItemGroup">
+	</item>
 	<itemsViewMode>Normal</itemsViewMode>
 	<itemsUserSettingID>fdf892bf-1bd4-488d-9007-3edd63850bb8</itemsUserSettingID>
 </Settings>

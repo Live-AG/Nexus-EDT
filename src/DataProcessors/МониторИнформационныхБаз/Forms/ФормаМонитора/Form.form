@@ -1093,10 +1093,6 @@
                 <name>ТаблицаЭлементовКластераПеретаскивание</name>
               </handlers>
               <handlers>
-                <event>DragEnd</event>
-                <name>ТаблицаЭлементовКластераОкончаниеПеретаскивания</name>
-              </handlers>
-              <handlers>
                 <event>OnActivateCell</event>
                 <name>ТаблицаЭлементовКластераПриАктивизацииЯчейки</name>
               </handlers>
