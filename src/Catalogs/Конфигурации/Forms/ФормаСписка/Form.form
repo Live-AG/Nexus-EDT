@@ -418,7 +418,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>ValueTable</types>
+      <types>ValueList</types>
     </valueType>
     <view>
       <common>true</common>
@@ -426,41 +426,9 @@
     <edit>
       <common>true</common>
     </edit>
-    <columns>
-      <name>ИмяКонфигурации</name>
-      <title>
-        <key>ru</key>
-        <value>Имя конфигурации</value>
-      </title>
-      <id>3</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers>
-          <length>250</length>
-        </stringQualifiers>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ДанныеДляЗагрузки</name>
-      <title>
-        <key>ru</key>
-        <value>Данные для загрузки</value>
-      </title>
-      <id>5</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>КомандаЗагрузитьКонфигурации</name>
