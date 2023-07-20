@@ -313,7 +313,7 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>4</precision>
+          <precision>5</precision>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
