@@ -1692,10 +1692,10 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
-              <name>ГруппаВебСервер</name>
+              <name>ГруппаВебСерверы</name>
               <id>510</id>
               <items xsi:type="form:FormGroup">
-                <name>ГруппаВебСерверПустая</name>
+                <name>ГруппаВебСерверыПустая</name>
                 <id>512</id>
                 <items xsi:type="form:Decoration">
                   <name>ДекорацияВебСерверВнимание</name>
@@ -1801,12 +1801,16 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Группа веб серверы пустая</value>
+                </title>
                 <toolTip>
                   <key>ru</key>
                   <value>Группа конфигурация пустая</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаВебСерверПустаяРасширеннаяПодсказка</name>
+                  <name>ГруппаВебСерверыПустаяРасширеннаяПодсказка</name>
                   <id>513</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1830,7 +1834,7 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
-                <name>ВебСервер</name>
+                <name>ВебСерверы</name>
                 <id>148</id>
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.ЦветПустойГиперссылки</color>
@@ -1845,7 +1849,7 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.ВебСервер</segments>
+                  <segments>ВебСерверПредставление</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <toolTip>
@@ -1853,7 +1857,7 @@
                   <value>&lt;Заполнить подсказку></value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ВебСерверРасширеннаяПодсказка</name>
+                  <name>ВебСерверыРасширеннаяПодсказка</name>
                   <id>150</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1868,7 +1872,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ВебСерверКонтекстноеМеню</name>
+                  <name>ВебСерверыКонтекстноеМеню</name>
                   <id>149</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1963,7 +1967,7 @@
                 <value>Группа период жизни</value>
               </toolTip>
               <extendedTooltip>
-                <name>ГруппаВебСерверРасширеннаяПодсказка</name>
+                <name>ГруппаВебСерверыРасширеннаяПодсказка</name>
                 <id>511</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -6367,6 +6371,24 @@
     </title>
     <id>8</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВебСерверПредставление</name>
+    <title>
+      <key>ru</key>
+      <value>Веб сервер представление</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
     <view>
       <common>true</common>
     </view>
