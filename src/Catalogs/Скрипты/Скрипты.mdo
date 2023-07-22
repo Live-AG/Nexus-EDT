@@ -137,20 +137,6 @@
           <value>0</value>
         </code>
       </content>
-      <content id="f5bbdd99-773a-4889-923e-cafa0771e2b7">
-        <name>ЗапуститьКонфигуратор</name>
-        <description>Запустить конфигуратор</description>
-        <code xsi:type="core:NumberValue">
-          <value>0</value>
-        </code>
-      </content>
-      <content id="c6c04087-8acb-49f3-b1aa-e4f777b1caae">
-        <name>ЗапуститьПредприятие</name>
-        <description>Запустить предприятие</description>
-        <code xsi:type="core:NumberValue">
-          <value>0</value>
-        </code>
-      </content>
       <content id="30a19c02-33ce-4444-9734-af0e8f659817">
         <name>ОбезличитьИнформационнуюБазу</name>
         <description>Обезличить информационную базу</description>
@@ -161,6 +147,13 @@
       <content id="2d6f78fa-1848-4bef-87d2-dc1e9caf9501">
         <name>ОбрезатьИнформазионнуюБазу</name>
         <description>Обрезать информазионную базу</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="1955978b-33fc-40f1-a2a5-af159e95da8e">
+        <name>ЗагрузитьКонфигурацию</name>
+        <description>Загрузить конфигурацию</description>
         <code xsi:type="core:NumberValue">
           <value>0</value>
         </code>
@@ -205,6 +198,35 @@
       <content id="a108397c-9bbd-4942-a4b6-24121b00ce29">
         <name>СоздатьРезервнуюКопию</name>
         <description>Создать резервную копию</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="80cd9abe-2853-452e-9ab9-1bbc3f4bf756">
+        <name>СкопироватьБазу</name>
+        <description>Скопировать базу</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+    </items>
+    <items id="75e60721-d616-42f3-b33b-8302f141f11c">
+      <name>ЗапускПредприятия</name>
+      <description>Запуск предприятия</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="f5bbdd99-773a-4889-923e-cafa0771e2b7">
+        <name>ЗапуститьКонфигуратор</name>
+        <description>Запустить конфигуратор</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
+      <content id="c6c04087-8acb-49f3-b1aa-e4f777b1caae">
+        <name>ЗапуститьПредприятие</name>
+        <description>Запустить предприятие</description>
         <code xsi:type="core:NumberValue">
           <value>0</value>
         </code>
