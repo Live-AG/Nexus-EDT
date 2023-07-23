@@ -142,6 +142,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -157,6 +158,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -175,6 +177,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -564,6 +567,31 @@
         <stringQualifiers>
           <length>50</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="72170373-f658-43bb-82ce-b3a20e602b14">
+    <producedTypes>
+      <objectType typeId="ab69bcc6-a8f9-4863-bb4a-f320ef898876" valueTypeId="5d698ccf-99cf-4152-b941-5c94207d9cf5"/>
+      <rowType typeId="8e510dc3-6140-4eef-a7e6-b98e2e5fb0c0" valueTypeId="e5d0bb75-f631-4ecc-813c-92082e1fa42f"/>
+    </producedTypes>
+    <name>ВебСерверы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб серверы</value>
+    </synonym>
+    <attributes uuid="7c927809-7e88-4bd2-b917-192ba3d19b50">
+      <name>ВебСервер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Веб сервер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВебСерверы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

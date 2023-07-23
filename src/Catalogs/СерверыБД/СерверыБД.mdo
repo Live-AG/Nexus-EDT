@@ -104,6 +104,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="da66a4cb-0ad1-47ef-a9ce-b26d6ce6896b">
+    <name>Защищен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Защищен</value>
+    </synonym>
+    <comment>Не доступен для выбора при автоматическом создании</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="4d94be42-60b7-4d26-b0eb-07a4ced62c1e">
     <name>Описание</name>
     <synonym>
