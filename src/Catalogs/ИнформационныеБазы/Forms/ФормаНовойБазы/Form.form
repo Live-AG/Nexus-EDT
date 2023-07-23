@@ -567,7 +567,6 @@
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>true</horizontalStretch>
-            <minValue>1</minValue>
             <maxValue>90</maxValue>
             <step>1</step>
             <largeStep>10</largeStep>
@@ -629,11 +628,66 @@
             <width>16</width>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <format>
+              <key>ru</key>
+              <value>ДФ=dd.MM.yyyy; ДП=бессрочно</value>
+            </format>
             <hyperlink>true</hyperlink>
             <font xsi:type="core:FontRef">
               <font>Style.NormalTextFont</font>
               <height>11.0</height>
             </font>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияОчистить</name>
+          <id>196</id>
+          <title>
+            <key>ru</key>
+            <value>Декорация1</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияОчиститьРасширеннаяПодсказка</name>
+            <id>198</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияОчиститьКонтекстноеМеню</name>
+            <id>197</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <handlers>
+              <event>Click</event>
+              <name>ДекорацияОчиститьНажатие</name>
+            </handlers>
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.КартинкаОтмена</picture>
+            </picture>
+            <hyperlink>true</hyperlink>
+            <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
         </items>
         <visible>true</visible>
