@@ -1049,7 +1049,6 @@
   <commonForms>CommonForm.ФормаАвторизации</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВебСерверы</catalogs>
-  <catalogs>Catalog.удВерсииКонфигураций</catalogs>
   <catalogs>Catalog.ВерсииПлатформы</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
@@ -1057,6 +1056,7 @@
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ВстречаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
+  <catalogs>Catalog.ГруппыИзбранного</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ДополниетельныеЗначенияКонтекста</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
@@ -1071,18 +1071,23 @@
   <catalogs>Catalog.Календари</catalogs>
   <catalogs>Catalog.Кластеры1С</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
+  <catalogs>Catalog.Лицензии1С</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.Операции</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.ПапкиЭлектронныхПисем</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользователиИБ</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПравилаОбработкиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.ПравилаПроверкиОбъектов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.ПроектыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
+  <catalogs>Catalog.РолиУчастниковПроектов</catalogs>
   <catalogs>Catalog.СерверыБД</catalogs>
   <catalogs>Catalog.Скрипты</catalogs>
   <catalogs>Catalog.СообщениеSMSПрисоединенныеФайлы</catalogs>
@@ -1090,6 +1095,7 @@
   <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.удВерсииКонфигураций</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
@@ -1099,12 +1105,6 @@
   <catalogs>Catalog.ШаблоныСценариев</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.ГруппыИзбранного</catalogs>
-  <catalogs>Catalog.ПравилаПроверкиОбъектов</catalogs>
-  <catalogs>Catalog.Лицензии1С</catalogs>
-  <catalogs>Catalog.Операции</catalogs>
-  <catalogs>Catalog.РолиУчастниковПроектов</catalogs>
-  <catalogs>Catalog.ПроектыПрисоединенныеФайлы</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
