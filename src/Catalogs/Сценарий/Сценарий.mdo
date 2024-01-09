@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c5584b7-7e57-4a68-92ec-283e521f2904">
+  <producedTypes>
+    <objectType typeId="4f7c8b1c-b57f-439b-84ec-f57699fd66df" valueTypeId="4a71e532-c97b-42ba-8590-50a11677ea7b"/>
+    <refType typeId="d15d1835-93d7-4dca-a32a-41ca2a759870" valueTypeId="8b2af3a8-fd1f-4650-aba9-d0710d2776e4"/>
+    <selectionType typeId="e75ce484-9eb8-4c5f-bf01-394137a9e156" valueTypeId="ec79baa4-0c7d-4553-b456-d01ff8c58ca9"/>
+    <listType typeId="cc534839-0f8a-4398-be2e-6ee6096bb570" valueTypeId="5ebbfb50-c2b4-413e-b2f8-7ab06710fbc2"/>
+    <managerType typeId="67ddacd4-dca5-4fc9-930c-1c3332edf285" valueTypeId="57fc0633-d1c1-4eff-b375-72c25de9be10"/>
+  </producedTypes>
+  <name>Сценарий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d610c75b-fdfd-42f9-8510-8a0330503c27">
+      <name>СозданиеПустойИнформационнойБазы</name>
+      <description>Создание пустой информационной базы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="54fd2042-1554-4945-afc6-348f3c325900">
+      <name>СозданиеНовойИнформационнойБазы</name>
+      <description>Создание новой информационной базы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cfdbc258-2802-4717-8f04-e7af58b0f76b">
+      <name>СозданиеДемоБазы</name>
+      <description>Создание демо базы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f97295a4-6f2a-4ae3-a72c-72c4afeb4c85">
+      <name>СозданиеКопииИнформационнойБазы</name>
+      <description>Создание копии информационной базы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сценарий.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f4b1fe00-44fb-416f-87e9-7bc8f371f644">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="63594f4b-f10d-44c0-8e3b-6a32b6712a8d">
+    <producedTypes>
+      <objectType typeId="231b7b0d-4819-4026-8c30-c9f4e52b1ad8" valueTypeId="121a1a69-0606-40d1-9e95-b8b0bfbc7537"/>
+      <rowType typeId="ea7407a1-6f0c-4f65-8d87-6544b021d144" valueTypeId="b142ef0f-1cfb-43a0-b789-5c9b5b7c186b"/>
+    </producedTypes>
+    <name>ТаблицаСкриптов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица скриптов</value>
+    </synonym>
+    <attributes uuid="f9f07f1b-806e-434a-8b19-5d52b4508afe">
+      <name>Скрипт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скрипт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Скрипты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9cd01dc0-805d-44cf-8dfd-b9a217c6c686">
+    <producedTypes>
+      <objectType typeId="0411a27d-1f99-4118-bb40-63d552dd374e" valueTypeId="5bee3800-6855-4aee-a23b-6efdf55fd9b1"/>
+      <rowType typeId="07ff066f-ad72-44c3-80d9-4baf9776363b" valueTypeId="839e226e-ab2f-4326-b45a-4a2740230d74"/>
+    </producedTypes>
+    <name>КонтекстВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст выполнения</value>
+    </synonym>
+  </tabularSections>
+  <forms uuid="87770b9a-39f3-4bda-893a-d8c172367976">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

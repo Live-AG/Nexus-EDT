@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<viewMode>Normal</viewMode>
+		<userSettingID>28dfebcc-47de-4b0a-83f7-d86ee157d623</userSettingID>
+	</filter>
+	<order>
+		<viewMode>Normal</viewMode>
+		<userSettingID>544cf412-e3f8-49dd-a275-a5d670748dc0</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+		<userSettingID>afa7b7c1-4774-40b9-914b-9b2d850c4c7b</userSettingID>
+	</conditionalAppearance>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Наименование</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+			</item>
+		</groupItems>
+	</item>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>b7c06ab3-c376-4100-8cda-36484860ac16</itemsUserSettingID>
+</Settings>

@@ -1105,6 +1105,7 @@
   <catalogs>Catalog.ШаблоныСценариев</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.Сценарий</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>

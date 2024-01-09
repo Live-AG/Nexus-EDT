@@ -16,4 +16,5 @@
   <content>ChartOfCharacteristicTypes.КонтекстВыполненияСкрипта</content>
   <content>Catalog.ДополниетельныеЗначенияКонтекста</content>
   <content>Enum.ПриложениеЗапускаСкрипта</content>
+  <content>Catalog.Сценарий</content>
 </mdclass:Subsystem>

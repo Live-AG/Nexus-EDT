@@ -158,6 +158,13 @@
           <value>0</value>
         </code>
       </content>
+      <content id="7faa9e21-f7b2-43c8-b92e-e5069185f39f">
+        <name>СоздатьНовуюИнформационнуюБазу</name>
+        <description>Создать новую информационную базу</description>
+        <code xsi:type="core:NumberValue">
+          <value>0</value>
+        </code>
+      </content>
     </items>
     <items id="d2c16103-77fa-4169-8b27-8c5db02e3aba">
       <name>Сеансы</name>

@@ -451,6 +451,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="4e3e12ae-7667-48c6-aa34-65007c85f267">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="c8198ee8-ef4a-4483-b5c9-521931741152">
     <producedTypes>
       <objectType typeId="7a05799e-2134-4f78-bdbf-2f984c43add8" valueTypeId="89ba2068-69fa-4269-9f71-39a1e90ff7bf"/>
