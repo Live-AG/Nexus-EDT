@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec393f1c-b848-4b0a-974c-0d2ef942c228">
+  <producedTypes>
+    <objectType typeId="2c7c28ff-ecac-462a-bddb-bac34f81e237" valueTypeId="b5e4f284-fd9e-4483-b606-0d0c6aff639c"/>
+    <refType typeId="dc713960-ab3b-4302-9a65-2b39ad4b9baa" valueTypeId="84edd55b-baf8-4f58-a6a5-9d6e52f98c8f"/>
+    <selectionType typeId="d3cb4480-b8b5-4eb3-a5bd-b147e504e627" valueTypeId="7aabcbf3-e75a-478c-a97a-56b83395953f"/>
+    <listType typeId="6a248c3b-27d7-4011-aab6-2bb007f1420b" valueTypeId="a393cca2-539c-4561-b259-c771a1d78e9f"/>
+    <managerType typeId="8d48a572-4816-49ed-ac7a-eeab22367aab" valueTypeId="801d2be6-823d-4b34-bacc-3e83e9e505a6"/>
+  </producedTypes>
+  <name>ПравилаПроверкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила проверки объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПравилаПроверкиОбъектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="69591a42-b496-4979-bf2e-39128e7ede5e">
+      <name>ИнформационныеБазы</name>
+      <description>Информационные базы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="ab519074-158f-4d3a-a02c-029f44f4c8f9">
+        <name>РегистрацияИнформационнойБазы</name>
+        <description>Регистрация информационно</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="85229cbb-e1b1-4190-805d-2ffa9cb934a4">
+      <name>Кластеры1С</name>
+      <description>Кластеры 1С</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="6d540d89-9565-4232-bc31-5056922fee42">
+        <name>ДоступностьСервераАдминистрированияКластера</name>
+        <description>Доступность сервера администрирования кластера</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1c99c1c7-029d-4fe4-be2e-1e711928d01f">
+        <name>АвторизацияСервераАдминистрирования</name>
+        <description>Авторизация сервера администрирования</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="d41f3860-af86-4fac-a9b1-c3bade3ae372">
+        <name>АвторизацияКластера1С</name>
+        <description>Авторизация кластера 1С</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2ac4bbdd-6115-4dcf-96f0-7b0d119a48cd">
+    <name>ТипРезультатаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип результата проверки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипРезультатаПроверкиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba3a9683-3d2b-48dd-869e-21690ecac37d">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

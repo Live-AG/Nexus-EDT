@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91b31705-c7f5-467c-b31b-2eb596c2b237">
+  <producedTypes>
+    <selectionType typeId="512260ef-d90e-4e89-a7dc-5cc73f88265f" valueTypeId="75874455-7560-48ba-a286-ca052c571878"/>
+    <listType typeId="f5849458-b463-491c-a21b-5e0e93a58ade" valueTypeId="08376ea0-4f32-4271-973e-2b9a1589319c"/>
+    <managerType typeId="532f1162-b44c-43e7-9162-e4a2138c58d8" valueTypeId="161000cb-5f6e-4eaf-960f-fd6959d1d6cb"/>
+    <recordSetType typeId="65c15310-b1cc-4908-9b9b-93d2d01aaee3" valueTypeId="a6cefbfc-36c1-4d04-a413-0c52380c98db"/>
+    <recordKeyType typeId="efd218b6-ed4a-44eb-843f-e158be8ecb9f" valueTypeId="70673828-1c73-4572-a327-2e52e2936389"/>
+    <recordType typeId="2edf7d08-3e33-43ee-8daa-175816a7b88b" valueTypeId="251ceba5-840b-4a9a-b559-3aafed42e7ee"/>
+    <recordManagerType typeId="0b7192af-7c4e-467e-9685-56b013bdde34" valueTypeId="e55781a1-90d2-47b4-aa50-9fdbf1850fc3"/>
+  </producedTypes>
+  <name>ПроверкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверки объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ac614b7d-235c-4ba5-bc31-0542c5bb56ef">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипРезультатаПроверкиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1b543a9e-f94f-4148-b8df-9d429818949b">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кластеры1С</types>
+      <types>CatalogRef.СерверыБД</types>
+      <types>CatalogRef.ИнформационныеБазы</types>
+      <types>CatalogRef.ПользователиИБ</types>
+      <types>CatalogRef.ВебСерверы</types>
+      <types>CatalogRef.ХранилищаКонфигураций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8cc29278-2489-4626-80ac-dea6af63649e">
+    <name>Правило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаПроверкиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b65417b-fe46-4b2c-a3d3-1774203194e8">
+  <producedTypes>
+    <refType typeId="faecfa9d-5123-4e60-92cd-e90dfcc6cd8c" valueTypeId="8680aa1e-2cf5-466f-bf24-602b526611ec"/>
+    <listType typeId="524504de-ab5c-404b-8acf-121b27e9a6ab" valueTypeId="9fed2838-952c-4227-92d9-3d83e5f80c5a"/>
+    <managerType typeId="624e633e-e653-46e7-b715-45da71533a36" valueTypeId="8a82e843-345c-4665-adfa-acdd3d4b5a78"/>
+  </producedTypes>
+  <name>ТипРезультатаПроверкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип результата проверки объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4cd2174d-1e46-4884-a519-15c3a568dee9">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5221f30b-5a3f-4b10-9579-8f00f99ac4a1">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ad97230-59d9-48b9-9952-1a9ef6cf4695">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

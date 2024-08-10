@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09e57484-aeab-4d25-8a95-e58941733743">
+  <producedTypes>
+    <selectionType typeId="404e81f0-2fe0-4c4a-b5e6-a54fc10cc4d3" valueTypeId="72959ad1-eb30-479f-913c-f7fc8707b30d"/>
+    <listType typeId="9beadffd-8546-4f5e-9c47-660d198efbfe" valueTypeId="c9e5ea53-d193-4d80-9cf1-58073048654a"/>
+    <managerType typeId="66ae6f32-0a36-4436-8e74-f76d8103272c" valueTypeId="4ee00c55-3357-4cb2-8e70-8f07a0bb2ba1"/>
+    <recordSetType typeId="79c1327f-03a2-4cff-a078-ba9339a17332" valueTypeId="ea897bf9-e877-40a2-a3b2-0a162a8ce466"/>
+    <recordKeyType typeId="78a5d3c5-f2be-4949-8b06-d8ae5a1b9058" valueTypeId="4cbdb408-66f2-4b24-b4dc-a30c58183cd2"/>
+    <recordType typeId="8079a1aa-9381-464e-9043-c03877f41185" valueTypeId="8526db8e-fb4a-441f-8379-3890057c0396"/>
+    <recordManagerType typeId="c78c6d03-5814-45cf-a03b-54abe67869e6" valueTypeId="a849dc45-68d1-47e8-af54-6d6e39ba9ac2"/>
+  </producedTypes>
+  <name>СтатистикаИспользованияИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика использования информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0ac9a650-8592-4c87-87d8-2c13f1c66c5a">
+    <name>КоличествоАктивныхСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество активных сеансов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f54a454-3e7f-48bd-8ca5-095a9427344b">
+    <name>КоличествоСпящихСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество спящих сеансов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4b2c80df-c33e-4fa1-9a73-afab02493cd1">
+    <name>ИмяПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="2a7d102e-846e-4509-95f4-ee951769574f">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="10a38427-e55c-469f-b0c9-8f016c1bbc9d">
+    <name>ПользовательИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ИБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиИБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
