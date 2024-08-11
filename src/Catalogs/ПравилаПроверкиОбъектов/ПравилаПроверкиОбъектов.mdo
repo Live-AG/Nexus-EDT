@@ -41,6 +41,13 @@
           <value></value>
         </code>
       </content>
+      <content id="4c87e86f-ab35-4aaf-91d7-34bccb801bf3">
+        <name>АвторизацияИнформационнойБазы</name>
+        <description>Авторизация информационной базы</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
     </items>
     <items id="85229cbb-e1b1-4190-805d-2ffa9cb934a4">
       <name>Кластеры1С</name>
@@ -66,6 +73,21 @@
       <content id="d41f3860-af86-4fac-a9b1-c3bade3ae372">
         <name>АвторизацияКластера1С</name>
         <description>Авторизация кластера 1С</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="cc2096b7-ad6b-45f6-b3be-da7320c0db18">
+      <name>СУБД</name>
+      <description>СУБД</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3f35e12b-0043-4bb9-bf1f-d68e4d38cc84">
+        <name>ЗаполнениеДанныхСУБД</name>
+        <description>Заполнение данных СУБД</description>
         <code xsi:type="core:StringValue">
           <value></value>
         </code>

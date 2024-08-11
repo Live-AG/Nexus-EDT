@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e665db9-cb8a-495c-81d5-1b47cab894d0">
-  <name>АдминистрированиеИнформационныхБаз</name>
+  <name>удал_АдминистрированиеИнформационныхБаз</name>
   <synonym>
     <key>ru</key>
-    <value>Администрирование информационных баз</value>
+    <value>Удал администрирование информационных баз</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

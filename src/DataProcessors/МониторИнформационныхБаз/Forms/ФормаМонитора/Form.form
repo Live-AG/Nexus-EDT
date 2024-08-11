@@ -4102,12 +4102,6 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ТаблицаЭлементовКластера.ИдентификаторЗадания</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ТаблицаЭлементовКластера.КраткоеОписание</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>ТаблицаЭлементовКластера.ПолеУпорядочивания</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -4144,7 +4138,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-	ПроверкиОбъектов.Объект КАК Объект,
+	ВЫРАЗИТЬ(ПроверкиОбъектов.Объект КАК Справочник.Кластеры1С) КАК Объект,
 	МАКСИМУМ(ВЫБОР
 			КОГДА ПроверкиОбъектов.Правило.ТипРезультатаПроверки = ЗНАЧЕНИЕ(Перечисление.ТипРезультатаПроверкиОбъектов.Предупреждение)
 				ТОГДА 1
@@ -4161,7 +4155,7 @@
 	ПроверкиОбъектов.Объект ССЫЛКА Справочник.Кластеры1С
 
 СГРУППИРОВАТЬ ПО
-	ПроверкиОбъектов.Объект
+	ВЫРАЗИТЬ(ПроверкиОбъектов.Объект КАК Справочник.Кластеры1С)
 
 ИНДЕКСИРОВАТЬ ПО
 	Объект
@@ -4237,9 +4231,6 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ТаблицаИнформационныхБаз.Сервер1С</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>ТаблицаИнформационныхБаз.Владелец</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -4250,7 +4241,7 @@
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	ПроверкиОбъектов.Объект КАК Объект,
+	ВЫРАЗИТЬ(ПроверкиОбъектов.Объект КАК Справочник.ИнформационныеБазы) КАК Объект,
 	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ПроверкиОбъектов.Правило) КАК Правило,
 	МАКСИМУМ(ПроверкиОбъектов.Результат) КАК Результат
 ПОМЕСТИТЬ ВТ_Проверки
@@ -4260,7 +4251,7 @@
 	ПроверкиОбъектов.Объект ССЫЛКА Справочник.ИнформационныеБазы
 
 СГРУППИРОВАТЬ ПО
-	ПроверкиОбъектов.Объект
+	ВЫРАЗИТЬ(ПроверкиОбъектов.Объект КАК Справочник.ИнформационныеБазы)
 
 ИНДЕКСИРОВАТЬ ПО
 	Объект

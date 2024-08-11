@@ -754,7 +754,7 @@
   <commonModules>CommonModule.ШаблоныСообщенийСлужебный</commonModules>
   <commonModules>CommonModule.ШаблоныСообщенийСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСПNexus</commonModules>
-  <commonModules>CommonModule.АдминистрированиеИнформационныхБаз</commonModules>
+  <commonModules>CommonModule.удал_АдминистрированиеИнформационныхБаз</commonModules>
   <commonModules>CommonModule.удал_АдминистрированиеСерверов</commonModules>
   <commonModules>CommonModule.АдминистрированиеЭлементовКластера</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияПолученияДанных</commonModules>
@@ -896,6 +896,7 @@
   <definedTypes>DefinedType.ПрисоединенныйФайл</definedTypes>
   <definedTypes>DefinedType.ПрисоединенныйФайлОбъект</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.ОбъектСистемы</definedTypes>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>

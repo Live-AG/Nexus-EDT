@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06b9aaa3-40e9-4100-bbde-e1f401c3dfed">
+  <producedTypes>
+    <containerType typeId="fd76527e-0daf-4f71-a700-92af1bbc14f5" valueTypeId="663ec687-e9b3-472a-b52e-65dd35f27640"/>
+  </producedTypes>
+  <name>ОбъектСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект системы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <types>CatalogRef.СерверыБД</types>
+    <types>CatalogRef.Кластеры1С</types>
+    <types>CatalogRef.ПользователиИБ</types>
+    <types>CatalogRef.ХранилищаКонфигураций</types>
+    <types>CatalogRef.Конфигурации</types>
+    <types>CatalogRef.ИнформационныеБазы</types>
+    <types>CatalogRef.ВебСерверы</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>
