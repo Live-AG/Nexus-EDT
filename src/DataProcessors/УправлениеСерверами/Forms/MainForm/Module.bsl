@@ -3420,7 +3420,7 @@ EndProcedure
 
 &AtClient
 Procedure ProcessingDeleteInfoBase(ClosingResult, AdditionalParameters) Export
-	If ClosingResult = Undefined Or ClosingResult <> DialogReturnCode.Cancel Then
+	If ClosingResult = Undefined Or ClosingResult = DialogReturnCode.Cancel Then
 		Return;
 	Else
 		RemoveInfobaseFromCluster(AdditionalParameters.ConnectionSettings, 
