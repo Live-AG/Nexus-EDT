@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c90c5a5-f090-4b5a-aaea-6bd4330db697">
+  <producedTypes>
+    <objectType typeId="68a49acc-cdea-499a-8cd1-85b8034000dd" valueTypeId="a97f226a-bba0-4062-81fc-1ad8cfdb9939"/>
+    <refType typeId="ad6c149a-b49f-457f-92a3-b772743a8078" valueTypeId="3af816bb-18b8-48f4-8f8a-6ff1c030151b"/>
+    <selectionType typeId="929019ed-1db0-4e98-8241-4802269d331e" valueTypeId="de7d78c5-b98d-487a-96cb-a03133c7c852"/>
+    <listType typeId="e6933926-b6c5-4fb6-bf21-30fe2033545d" valueTypeId="be0df5e2-3983-4bf0-add7-1f63a4b5c6d8"/>
+    <managerType typeId="fc5dd9bc-a5b7-4dd5-af85-8d096c292f99" valueTypeId="7f2c95aa-e41a-4fd4-952b-9a16714f18e2"/>
+  </producedTypes>
+  <name>НазначенияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c2ffaab7-dc37-41b3-a346-6e5ba49e2906">
+      <name>Рабочая</name>
+      <description>Рабочая</description>
+      <code xsi:type="core:StringValue">
+        <value>prod</value>
+      </code>
+    </items>
+    <items id="242a3b01-8b18-46ee-b6bc-6b3816a3bc15">
+      <name>Архивная</name>
+      <description>Архивная</description>
+      <code xsi:type="core:StringValue">
+        <value>arch</value>
+      </code>
+    </items>
+    <items id="807a54b8-c153-4df4-9c62-d08337ac9d4d">
+      <name>Разработка</name>
+      <description>Разработка</description>
+      <code xsi:type="core:StringValue">
+        <value>dev</value>
+      </code>
+    </items>
+    <items id="cf6c6f27-4fb0-45de-aefc-669da72ca720">
+      <name>Тестовая</name>
+      <description>Тестовая</description>
+      <code xsi:type="core:StringValue">
+        <value>test</value>
+      </code>
+    </items>
+    <items id="a831ce41-6a7c-40d8-b829-6bc6c8697c2d">
+      <name>Моделирование</name>
+      <description>Моделирование</description>
+      <code xsi:type="core:StringValue">
+        <value>mod</value>
+      </code>
+    </items>
+    <items id="624084aa-9704-45b2-aee9-f4ae88ea9a4a">
+      <name>Предпродоуктивная</name>
+      <description>Предпродоуктивная</description>
+      <code xsi:type="core:StringValue">
+        <value>pre</value>
+      </code>
+    </items>
+    <items id="10864f00-a0dd-4d06-8f81-56593f593233">
+      <name>Демо</name>
+      <description>Демо</description>
+      <code xsi:type="core:StringValue">
+        <value>demo</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <attributes uuid="05177f45-4861-4b13-a239-ff77b4468ee4">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

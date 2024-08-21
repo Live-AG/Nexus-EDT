@@ -181,10 +181,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f53dc3fb-84bb-402d-9a12-35480096882e">
-    <name>Назначение</name>
+    <name>удалитьНазначение</name>
     <synonym>
       <key>ru</key>
-      <value>Назначение</value>
+      <value>Удалить назначение</value>
     </synonym>
     <type>
       <types>EnumRef.НазначенияИБ</types>
@@ -457,6 +457,21 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04399eb9-4de5-436a-800a-0b3956470bdf">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НазначенияИБ</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

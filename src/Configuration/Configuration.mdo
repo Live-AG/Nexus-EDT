@@ -759,7 +759,7 @@
   <commonModules>CommonModule.АдминистрированиеЭлементовКластера</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияПолученияДанных</commonModules>
   <commonModules>CommonModule.РаботаСБуферомОбменаКлиентСервер</commonModules>
-  <commonModules>CommonModule.РаботаСоСкриптамиСервер</commonModules>
+  <commonModules>CommonModule.РаботаСоСкриптамиКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСкриптамиКлиент</commonModules>
   <commonModules>CommonModule.ПроверкаСостоянияОбъектов</commonModules>
   <commonModules>CommonModule.РаботаСДаннымиАвторизации</commonModules>
@@ -1075,6 +1075,7 @@
   <catalogs>Catalog.Конфигурации</catalogs>
   <catalogs>Catalog.Лицензии1С</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
+  <catalogs>Catalog.НазначенияИБ</catalogs>
   <catalogs>Catalog.Операции</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.ПапкиЭлектронныхПисем</catalogs>
@@ -1095,6 +1096,7 @@
   <catalogs>Catalog.СообщениеSMSПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
+  <catalogs>Catalog.Сценарий</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.удВерсииКонфигураций</catalogs>
@@ -1107,7 +1109,6 @@
   <catalogs>Catalog.ШаблоныСценариев</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Сценарий</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>
@@ -1115,22 +1116,25 @@
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
-  <enums>Enum.НазначенияИБ</enums>
-  <enums>Enum.ТипыСУБД</enums>
-  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыВажностиВзаимодействия</enums>
-  <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
-  <enums>Enum.ВариантыПредставленияПериода</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
+  <enums>Enum.ВариантыПериода</enums>
+  <enums>Enum.ВариантыПредставленияПериода</enums>
+  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВидыОперационныхСистем</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>
+  <enums>Enum.ВидыРегистрируемыхСобытий</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
+  <enums>Enum.МестаИсполненияСкрипта</enums>
+  <enums>Enum.НазначенияИБ</enums>
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
   <enums>Enum.ПериодОчисткиФайлов</enums>
   <enums>Enum.ПорядокОтветовНаЗапросыУведомленийОПрочтении</enums>
+  <enums>Enum.ПриложениеЗапускаСкрипта</enums>
   <enums>Enum.ПровайдерыSMS</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.РазрешенияСканированногоИзображения</enums>
@@ -1140,6 +1144,7 @@
   <enums>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.СостоянияДокументаСообщениеSMS</enums>
   <enums>Enum.СостоянияСообщенияSMS</enums>
+  <enums>Enum.СостоянияЭлементовКластера</enums>
   <enums>Enum.СпособыВызоваДополнительныхОбработок</enums>
   <enums>Enum.СпособыЗаполненияГрафикаРаботы</enums>
   <enums>Enum.СпособыОткрытияФайлаНаПросмотр</enums>
@@ -1149,33 +1154,29 @@
   <enums>Enum.СпособыУстановкиВремениНапоминания</enums>
   <enums>Enum.СрокиХраненияВерсий</enums>
   <enums>Enum.СтатусыИзвлеченияТекстаФайлов</enums>
+  <enums>Enum.СтатусыИнформационнойБазы</enums>
   <enums>Enum.СтатусыИсходящегоЭлектронногоПисьма</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
+  <enums>Enum.ТипРезультатаПроверкиОбъектов</enums>
+  <enums>Enum.ТипыВебСерверов</enums>
   <enums>Enum.ТипыВерсийОбъекта</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.ТипыЛицензий</enums>
   <enums>Enum.ТипыОтчетов</enums>
   <enums>Enum.ТипыПредопределенныхПапокПисем</enums>
+  <enums>Enum.ТипыСУБД</enums>
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>
   <enums>Enum.ТипыФайловДляВстроенногоРедактора</enums>
+  <enums>Enum.ТипыФайловПоставкиКонфигурации</enums>
   <enums>Enum.ТипыХраненияФайлов</enums>
+  <enums>Enum.ТипыХранилища</enums>
   <enums>Enum.ФорматыСканированногоИзображения</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.СостоянияЭлементовКластера</enums>
-  <enums>Enum.ВидыОперационныхСистем</enums>
-  <enums>Enum.СтатусыИнформационнойБазы</enums>
-  <enums>Enum.МестаИсполненияСкрипта</enums>
-  <enums>Enum.ВидыРегистрируемыхСобытий</enums>
-  <enums>Enum.ТипыВебСерверов</enums>
-  <enums>Enum.ПриложениеЗапускаСкрипта</enums>
-  <enums>Enum.ТипРезультатаПроверкиОбъектов</enums>
-  <enums>Enum.ТипыЛицензий</enums>
-  <enums>Enum.ТипыХранилища</enums>
-  <enums>Enum.ТипыФайловПоставкиКонфигурации</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>

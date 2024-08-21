@@ -21,4 +21,5 @@
   <content>Enum.ТипыВебСерверов</content>
   <content>InformationRegister.ПроверкиОбъектов</content>
   <content>Catalog.Конфигурации</content>
+  <content>Catalog.НазначенияИБ</content>
 </mdclass:Subsystem>

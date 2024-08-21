@@ -683,7 +683,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Назначение</segments>
+          <segments>Объект.удалитьНазначение</segments>
         </dataPath>
         <extendedTooltip>
           <name>НазначениеИБРасширеннаяПодсказка</name>
