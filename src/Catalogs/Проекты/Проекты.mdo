@@ -100,9 +100,11 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
   <descriptionLength>50</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="bc6d3a4c-51cb-4ff3-8e43-203a3e9d8426">
@@ -115,6 +117,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Проекты.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="cca74366-3877-4c99-b73b-7e34a0b8f00e">
     <name>Контрагент</name>
     <synonym>
@@ -207,4 +210,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="2f153617-f9e6-424a-8b4d-7e3f52a331fb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

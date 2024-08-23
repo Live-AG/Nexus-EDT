@@ -759,7 +759,7 @@
   <commonModules>CommonModule.АдминистрированиеЭлементовКластера</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияПолученияДанных</commonModules>
   <commonModules>CommonModule.РаботаСБуферомОбменаКлиентСервер</commonModules>
-  <commonModules>CommonModule.РаботаСоСкриптамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСоСкриптамиСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСкриптамиКлиент</commonModules>
   <commonModules>CommonModule.ПроверкаСостоянияОбъектов</commonModules>
   <commonModules>CommonModule.РаботаСДаннымиАвторизации</commonModules>
