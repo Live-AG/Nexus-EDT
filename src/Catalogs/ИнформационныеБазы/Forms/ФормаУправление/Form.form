@@ -323,7 +323,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Конфигуратор_ЧБ1</picture>
+              <picture>CommonPicture.КартинкаОтмена</picture>
             </picture>
             <hyperlink>true</hyperlink>
             <fileDragMode>AsFileRef</fileDragMode>
@@ -334,7 +334,7 @@
           <id>26</id>
           <title>
             <key>ru</key>
-            <value>Выполнить загрузку конфигурации</value>
+            <value>Удалить информационную базу</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -383,6 +383,10 @@
             <height>11.0</height>
           </font>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <handlers>
+              <event>Click</event>
+              <name>Декорация2Нажатие</name>
+            </handlers>
             <hyperlink>true</hyperlink>
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -502,6 +506,9 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.РаботаСоСкриптами</picture>
+            </picture>
             <hyperlink>true</hyperlink>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
@@ -511,7 +518,7 @@
           <id>36</id>
           <title>
             <key>ru</key>
-            <value>Выполнить загрузку конфигурации</value>
+            <value>Выполнить предопределенный скрипт</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>

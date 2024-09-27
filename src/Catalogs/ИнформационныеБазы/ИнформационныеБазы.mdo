@@ -731,6 +731,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="4bd853d0-caff-4c6f-b4b8-8963c3284d06">
+    <name>ФормаУдаленияБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма удаления базы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="e8297624-f23f-4f5f-bc43-6023fd4d54fa">
     <name>МакетПоказателей</name>
     <synonym>
