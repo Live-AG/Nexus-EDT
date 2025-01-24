@@ -85,7 +85,7 @@
       <name>ГруппаРежимУдаленияБазыДанныхПраво</name>
       <id>13</id>
       <items xsi:type="form:FormField">
-        <name>РежимУдаленияБазыДанных</name>
+        <name>РежимУдаленияБазыДанных_Удалить</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -98,11 +98,11 @@
         <titleLocation>None</titleLocation>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
-          <name>РежимУдаленияБазыДанныхРасширеннаяПодсказка</name>
+          <name>РежимУдаленияБазыДанных_УдалитьРасширеннаяПодсказка</name>
           <id>12</id>
           <title>
             <key>ru</key>
-            <value>При удалении информационной базы будет удалена база данных.</value>
+            <value>При удалении информационной, базы будет удалена база данных.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -117,7 +117,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>РежимУдаленияБазыДанныхКонтекстноеМеню</name>
+          <name>РежимУдаленияБазыДанных_УдалитьКонтекстноеМеню</name>
           <id>11</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -144,7 +144,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>РежимУдаленияБазыДанных1</name>
+        <name>РежимУдаленияБазыДанных_Очистить</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -157,7 +157,7 @@
         <titleLocation>None</titleLocation>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
-          <name>РежимУдаленияБазыДанных1РасширеннаяПодсказка</name>
+          <name>РежимУдаленияБазыДанных_ОчиститьРасширеннаяПодсказка</name>
           <id>6</id>
           <title>
             <key>ru</key>
@@ -176,7 +176,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>РежимУдаленияБазыДанных1КонтекстноеМеню</name>
+          <name>РежимУдаленияБазыДанных_ОчиститьКонтекстноеМеню</name>
           <id>5</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -203,7 +203,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>РежимУдаленияБазыДанных2</name>
+        <name>РежимУдаленияБазыДанных_Оставить</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -216,7 +216,7 @@
         <titleLocation>None</titleLocation>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
-          <name>РежимУдаленияБазыДанных2РасширеннаяПодсказка</name>
+          <name>РежимУдаленияБазыДанных_ОставитьРасширеннаяПодсказка</name>
           <id>9</id>
           <title>
             <key>ru</key>
@@ -235,7 +235,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>РежимУдаленияБазыДанных2КонтекстноеМеню</name>
+          <name>РежимУдаленияБазыДанных_ОставитьКонтекстноеМеню</name>
           <id>8</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -566,6 +566,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Удалить</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
