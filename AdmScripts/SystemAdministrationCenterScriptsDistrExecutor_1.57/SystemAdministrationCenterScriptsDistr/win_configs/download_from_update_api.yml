@@ -1,0 +1,12 @@
+version: 0.0.0.1
+external-values:
+  - configuration-name
+  - current-version
+  - download-folder
+  - username
+  - password
+default-values:
+  test-mode: false
+  timeout: 0
+  try-count: 1
+  time-limit: 3600

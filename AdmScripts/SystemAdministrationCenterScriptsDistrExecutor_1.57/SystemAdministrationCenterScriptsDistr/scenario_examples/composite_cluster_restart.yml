@@ -1,0 +1,26 @@
+version: 0.0.0.1
+external-values:
+  - service-1c/name
+  - ras/name
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  server-role: app
+  web-server: apache
+scenario:
+  - name: cluster-stop
+    command: cluster-stop
+    scenario-data:
+      service-1c/name: <service-1c/name>
+      ras/name: <ras/name>
+      server-role: <server-role>
+      web-server: <web-server>
+  - name: cluster-start
+    command: cluster-start
+    scenario-data:
+      service-1c/name: <service-1c/name>
+      ras/name: <ras/name>
+      server-role: <server-role>
+      web-server: <web-server>

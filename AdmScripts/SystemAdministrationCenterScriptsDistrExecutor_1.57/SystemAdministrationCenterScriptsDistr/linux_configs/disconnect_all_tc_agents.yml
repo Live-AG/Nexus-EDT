@@ -1,0 +1,16 @@
+version: 2.1.4.1
+external-values:
+  - www-host
+  - www-ib
+  - username
+  - password
+default-values:
+  test-mode: false
+  try-count: 1
+  #timeout: 100
+  time-limit: 3600
+  lang: ru
+  check-ib-availability-time-limit: 300
+  tail: ""
+  result-file: ""
+  wait-for-completion: False

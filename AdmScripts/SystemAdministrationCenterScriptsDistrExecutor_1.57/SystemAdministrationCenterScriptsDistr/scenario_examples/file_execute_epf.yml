@@ -1,0 +1,17 @@
+version: 0.0.0.1
+external-values:
+  - file-ib
+  - epf-path
+  - command
+  - username
+  - password
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 100
+  time-limit: 3600
+  lang: ru
+  setup-folder: C:\1C\platform
+  check-ib-availability-time-limit: 120
+  result-file: ""
+  access-code: ""

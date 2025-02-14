@@ -1,0 +1,24 @@
+version: 0.0.0.1
+external-values: []
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 0
+  time-limit: 3600
+  host: localhost
+  port: 1545
+  cluster-port: null
+  agent-user: null
+  agent-pwd: null
+  setup-folder: C:\1C\platform
+  cluster-parameters:
+    name: null
+    expiration-timeout: null
+    lifetime-limit: null
+    max-memory-size: null
+    max-memory-time-limit: null
+    security-level: null
+    session-fault-tolerance-level: null
+    load-balancing-mode: null
+    errors-count-threshold: null
+    kill-problem-processes: null

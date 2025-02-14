@@ -31,6 +31,7 @@
     <types>CatalogRef.ДополниетельныеЗначенияКонтекста</types>
     <types>CatalogRef.ВебСерверы</types>
     <types>CatalogRef.ХранилищаКонфигураций</types>
+    <types>CatalogRef.Кластеры1С</types>
     <stringQualifiers>
       <length>250</length>
     </stringQualifiers>
@@ -84,6 +85,14 @@
       <code>000000005</code>
       <type>
         <types>CatalogRef.ВебСерверы</types>
+      </type>
+    </items>
+    <items id="bd2e075b-ec3d-4826-9c48-1aad56b64cf0">
+      <name>Кластер1С</name>
+      <description>Кластер 1С</description>
+      <code>000000006</code>
+      <type>
+        <types>CatalogRef.Кластеры1С</types>
       </type>
     </items>
   </predefined>

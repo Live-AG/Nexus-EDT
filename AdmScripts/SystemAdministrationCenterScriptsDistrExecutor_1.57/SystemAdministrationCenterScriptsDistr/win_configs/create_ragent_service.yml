@@ -1,0 +1,17 @@
+version: 0.0.0.1
+external-values:
+  - username
+  - cluster-folder
+  - setup-folder
+default-values:
+  test-mode: false
+  time-limit: 3600
+  name: 1C:Enterprise 8 Server Agent
+  description: 1C:Enterprise 8 Server Agent
+  port: 1540
+  regport: 1541
+  range: 1560:1591
+  cluster-debug: false
+  additional-options: ""
+  password: ""
+  start-service-automatically: True

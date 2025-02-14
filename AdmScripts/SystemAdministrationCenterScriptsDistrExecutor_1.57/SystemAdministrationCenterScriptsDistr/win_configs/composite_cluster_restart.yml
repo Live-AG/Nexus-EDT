@@ -1,0 +1,30 @@
+version: 0.0.0.1
+external-values:
+  - server-role
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  service-1c:
+    name: 1C:Enterprise 8 Server Agent
+  ras:
+    name: 1C:Enterprise 8 Remote Server
+  web-server: apache
+  dumps-folder: ""
+scenario:
+  - name: cluster-stop
+    command: cluster-stop
+    scenario-data:
+      service-1c/name: <service-1c/name>
+      ras/name: <ras/name>
+      server-role: <server-role>
+      web-server: <web-server>
+      dumps-folder: <path:dumps-folder>
+  - name: cluster-start
+    command: cluster-start
+    scenario-data:
+      service-1c/name: <service-1c/name>
+      ras/name: <ras/name>
+      server-role: <server-role>
+      web-server: <web-server>

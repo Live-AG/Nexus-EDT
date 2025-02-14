@@ -1,0 +1,12 @@
+version: 0.0.0.1
+external-values:
+  - service-name
+  - setup-folder
+  - distr-folder
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  keep-configs: True
+  dumps-folder: .

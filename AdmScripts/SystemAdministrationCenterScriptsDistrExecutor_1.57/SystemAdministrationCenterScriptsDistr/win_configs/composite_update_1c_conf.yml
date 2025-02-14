@@ -1,0 +1,49 @@
+version: 0.0.0.1
+external-values:
+  - ib
+  - username
+  - password
+  - cf-path
+  - setup-folder
+  - host
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  lang: ru
+  access-code: ""
+  port: 1541
+scenario:
+  - name: update configuration
+    command: update-cfg
+    scenario-data:
+      host: <host>
+      port: <int:port>
+      ib: <ib>
+      username: <username>
+      password: <password>
+      setup-folder: <path:setup-folder>
+      cf-path: <path:cf-path>
+      access-code: <access-code>
+  - name: update DB
+    command: update-db-cfg
+    scenario-data:
+      host: <host>
+      port: <int:port>
+      ib: <ib>
+      username: <username>
+      password: <password>
+      setup-folder: <path:setup-folder>
+      access-code: <access-code>
+    rollback:
+      name: rollback configuration
+      command: rollback-cfg
+      scenario-data:
+        host: <host>
+        port: <int:port>
+        ib: <ib>
+        username: <username>
+        password: <password>
+        setup-folder: <path:setup-folder>
+        access-code: <access-code>

@@ -1,0 +1,25 @@
+version: 0.0.0.1
+external-values:
+  - ib
+  - username
+  - password
+  - client-path
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  lang: ru
+  access-code: ""
+  host: localhost
+  port: 1541
+rollback:
+  command: rollback-1c-conf
+  scenario-data:
+    host: <host>
+    port: <int:port>
+    ib: <ib>
+    username: <username>
+    password: <password>
+    client-path: <client-path>
+    access-code: <access-code>

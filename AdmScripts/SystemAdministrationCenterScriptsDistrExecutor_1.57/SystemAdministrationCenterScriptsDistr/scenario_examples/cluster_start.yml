@@ -1,0 +1,24 @@
+version: 0.0.0.1
+rollback:
+  command: cluster-stop
+  scenario-data:
+    service-1c/name: <service-1c/name>
+    ras/name: <ras/name>
+    server-role: <server-role>
+    test-mode: false
+    time-limit: <int:time-limit>
+    timeout: <int:timeout>
+    try-count: <int:try-count>
+    dumps-folder: <path:dumps-folder>
+    web-server: <web-server>
+external-values:
+  - service-1c/name
+  - ras/name
+  - server-role
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  dumps-folder: ~/1C/dumps
+  web-server: apache

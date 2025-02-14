@@ -1,0 +1,16 @@
+version: 2.1.4.1
+external-values:
+  - ib
+  - username
+  - password
+  - cf-path
+  - host
+  - setup-folder
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  lang: ru
+  access-code: ""
+  port: 1541

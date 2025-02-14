@@ -1,0 +1,20 @@
+version: 0.0.0.1
+external-values:
+  - platform-folder
+  - extension-activity
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  lang: ru
+  access-code:
+  server:
+  ib:
+  path-to-ib:
+  ib-user:
+  ib-password:
+  port: 1541
+  agent-hostname: localhost
+  agent-port: 1543
+  extensions-description:

@@ -1,0 +1,14 @@
+version: 2.1.4.1
+external-values:
+  - file-ib
+  - username
+  - password
+  - cf-path
+  - setup-folder
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  lang: ru
+  access-code: ""

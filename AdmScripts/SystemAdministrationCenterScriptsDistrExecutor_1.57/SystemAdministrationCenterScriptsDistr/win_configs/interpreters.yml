@@ -1,0 +1,5 @@
+python3: ..\\..\\python\\python {script-name} {config-name} {cmdline-parameters}
+1c_emulate: ..\\..\\python\\python ..\\..\\Scripts\\src\\execute_epf.py ..\\..\\Scripts\\win_configs\\execute_epf.yml --epf-path={script-name} --srvr=localhost --port=1541 --ib=night-test-win-1541 --client-path=C:\\1C\\platform --command={cmdline-parameters-as-one}
+1c: C:\1C\Platform\bin\1cv8.exe /F ".\1C_Interpreter" /N "Администратор" /P "" /Execute {script-name} /C {cmdline-parameters-as-one} /DisableStartupDialogs /DisableStartupMessages
+agentetp: agentetp {script-name} {config-name} {cmdline-parameters}
+1c_executor: ..\\..\\executor\\executor.cmd {script-name} -config-name {config-name} {cmdline-parameters-executor}

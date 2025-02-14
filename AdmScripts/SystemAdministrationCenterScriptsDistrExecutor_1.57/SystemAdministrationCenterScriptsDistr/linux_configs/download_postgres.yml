@@ -1,0 +1,15 @@
+version: 0.0.0.1
+external-values:
+  - username
+  - password
+  - download-folder
+  - version
+  - target-arch
+  - target-os
+default-values:
+  test-mode: false
+  timeout: 0
+  try-count: 1
+  time-limit: 3600
+  use-eu-site: False
+  save-accurately: False

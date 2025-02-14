@@ -1,0 +1,14 @@
+version: 0.0.0.1
+external-values:
+  - infobase-name
+  - setup-folder
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 0
+  time-limit: 3600
+  port: 1545
+  host: localhost
+  cluster-port: 1541
+  cluster-user: null
+  cluster-pwd: null

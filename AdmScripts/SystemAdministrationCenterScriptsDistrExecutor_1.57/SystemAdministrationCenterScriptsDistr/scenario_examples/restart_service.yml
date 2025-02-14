@@ -1,0 +1,17 @@
+version: 0.0.0.1
+external-values:
+  - service-name
+default-values:
+  test-mode: false
+  time-limit: 3600
+  dumps-folder: /var/crash
+scenario:
+  - name: stop service
+    command: stop-service
+    scenario-data:
+      service-name: <service-name>
+      dumps-folder: <path:dumps-folder>
+  - name: start service
+    command: start-service
+    scenario-data:
+      service-name: <service-name>

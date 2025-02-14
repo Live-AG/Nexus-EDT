@@ -1,0 +1,13 @@
+version: 0.0.0.1
+external-values:
+  - source
+  - destination
+default-values:
+  test-mode: False
+  time-limit: 3600
+  try-count: 1
+  timeout: 0
+  with-root: False
+  replace: True
+  pattern: ""
+  invert-pattern: False

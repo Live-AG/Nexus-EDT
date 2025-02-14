@@ -1,0 +1,14 @@
+version: 2.1.4.1
+external-values:
+  - virtual-directory
+  - web-server
+  - file-ib
+  - setup-folder
+default-values:
+  test-mode: False
+  time-limit: 60
+  try-count: 1
+  timeout: 0
+  action: publish
+  real-directory: ""
+  config-path: ""

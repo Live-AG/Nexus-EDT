@@ -1,0 +1,16 @@
+version: 0.0.0.1
+external-values:
+  - output-file
+  - cluster-port
+  - cluster-user
+  - cluster-pwd
+  - agent-user
+  - agent-pwd
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 0
+  time-limit: 3600
+  host: localhost
+  port: 1545
+  setup-folder: C:\1C\platform

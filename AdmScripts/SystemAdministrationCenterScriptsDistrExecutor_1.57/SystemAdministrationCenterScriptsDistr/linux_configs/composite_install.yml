@@ -1,0 +1,25 @@
+version: 0.0.0.1
+external-values:
+  - new-version
+  - distr-folder
+  - platform-modules
+default-values:
+  test-mode: false
+  time-limit: 3600
+  languages: RU,EN
+  setup-folder: /opt/1C/v8.3/x86_64
+scenario:
+  # install new platform block
+  - name: install-new-platform
+    command: platform-install
+    scenario-data:
+      version: <version:new-version>
+      platform-modules: <platform-modules>
+      distr-folder: <path:distr-folder>
+      setup-folder: <path:setup-folder>
+      languages: <languages>
+    rollback:
+      command: platform-remove
+      scenario-data:
+        setup-folder: <path:setup-folder>
+        version: <version:new-version>
