@@ -1,0 +1,15 @@
+version: 2.1.4.1
+external-values:
+  - ftp_address
+  - destination
+default-values:
+  test-mode: False
+  time-limit: 3600
+  try-count: 1
+  timeout: 0
+  source: ""
+  remove-source: False
+  port: 0
+  login: ""
+  password: ""
+  replace: True

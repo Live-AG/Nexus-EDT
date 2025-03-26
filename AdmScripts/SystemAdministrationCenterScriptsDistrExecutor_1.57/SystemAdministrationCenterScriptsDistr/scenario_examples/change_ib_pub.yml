@@ -1,0 +1,16 @@
+version: 0.0.0.1
+external-values:
+  - virtual-directory
+  - web-server
+  - ib
+default-values:
+  test-mode: False
+  time-limit: 60
+  try-count: 1
+  timeout: 0
+  action: publish
+  real-directory: ""
+  srvr: 127.0.0.1
+  port: 1541
+  config-path: ""
+  setup-folder: ""

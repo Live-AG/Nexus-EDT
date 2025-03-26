@@ -1,0 +1,97 @@
+version: 0.0.0.1
+external-values:
+  - service-username
+  - distr-folder
+  - cluster-folder
+  - service-password
+  - setup-folder
+default-values:
+  test-mode: false
+  time-limit: 3600
+  languages: RU,EN
+  service-1c:
+    name: srv1cv8
+    port: 1540
+    regport: 1541
+    range: 1560:1591
+    cluster-debug: false
+    additional-options: ""
+    cluster-folder: <path:cluster-folder>
+  ras:
+    name: srv1cv8_ras
+    port: 1545
+    agent-host: localhost
+    agent-port: <int:service-1c/port>
+scenario:
+  - parallel:
+    - - name: remove-old-cluster-service
+        command: delete-service
+        scenario-data:
+          name: <service-1c/name>
+          pwd: <service-password>
+        rollback:
+          command: create-ragent-service
+          scenario-data:
+            name: <service-1c/name>
+            username: <service-username>
+            password: <str:service-password>
+            setup-folder: <path:setup-folder>
+            port: <int:service-1c/port>
+            regport: <int:service-1c/regport>
+            range: <str:service-1c/range>
+            cluster-debug: <bool:service-1c/cluster-debug>
+            additional-options: <str:service-1c/additional-options>
+            cluster-folder: <path:service-1c/cluster-folder>
+    - - name: remove-old-ras-service
+        command: delete-service
+        scenario-data:
+          name: <ras/name>
+        rollback:
+          command: create-ras-service
+          scenario-data:
+            name: <ras/name>
+            username: <service-username>
+            password: <str:service-password>
+            setup-folder: <path:setup-folder>
+            port: <int:ras/port>
+            agent-host: <ras/agent-host>
+            agent-port: <int:ras/agent-port>
+  # install new platform block
+  - name: install-new-platform
+    command: move-files
+    scenario-data:
+      source: <path:distr-folder>
+      destination: <path:setup-folder>
+  # install services
+  - parallel:
+    - - name: install-new-cluster-service
+        command: create-ragent-service
+        scenario-data:
+          name: <service-1c/name>
+          username: <service-username>
+          password: <str:service-password>
+          setup-folder: <path:setup-folder>
+          port: <int:service-1c/port>
+          regport: <int:service-1c/regport>
+          range: <str:service-1c/range>
+          cluster-debug: <bool:service-1c/cluster-debug>
+          additional-options: <str:service-1c/additional-options>
+          cluster-folder: <path:service-1c/cluster-folder>
+        rollback:
+          command: delete-service
+          scenario-data:
+            name: <service-1c/name>
+    - - name: install-new-ras-service
+        command: create-ras-service
+        scenario-data:
+          name: <ras/name>
+          username: <service-username>
+          password: <str:service-password>
+          setup-folder: <path:setup-folder>
+          port: <int:ras/port>
+          agent-host: <ras/agent-host>
+          agent-port: <int:ras/agent-port>
+        rollback:
+          command: delete-service
+          scenario-data:
+            name: <ras/name>

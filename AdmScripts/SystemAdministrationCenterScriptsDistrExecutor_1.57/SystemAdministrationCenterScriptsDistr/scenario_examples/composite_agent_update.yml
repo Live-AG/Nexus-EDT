@@ -1,0 +1,41 @@
+version: 0.0.0.1
+external-values:
+  - service-name
+  - source
+  - agent-location
+  - local-store-location
+  - backup-location
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  keep-configs: True
+  dumps-folder: .
+scenario:
+  - name: copy-new-agent
+    command: copy-files
+    scenario-data:
+      source: <path:source>
+      destination: <path:local-store-location>
+      pack: false
+      unpack: true
+      replace: true
+  - name: update-agent
+    command: update-agent
+    scenario-data:
+      service-name: <service-name>
+      setup-folder: <path:agent-location>
+      distr-folder: <path:local-store-location>
+      keep-configs: <bool:keep-configs>
+      dumps-folder: <path:dumps-folder>
+      backup-folder: <path:backup-location>
+    rollback:
+      command: update-agent
+      scenario-data:
+        service-name: <service-name>
+        setup-folder: <path:agent-location>
+        distr-folder: <path:backup-location>
+        keep-configs: <bool:keep-configs>
+        dumps-folder: <path:dumps-folder>
+        backup-folder: null

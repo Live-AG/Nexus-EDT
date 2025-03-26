@@ -1,0 +1,13 @@
+version: 0.0.0.1
+external-values:
+  - name
+  - username
+default-values:
+  test-mode: false
+  time-limit: 3600
+  description: 1C:Enterprise 8 Remote Administration Server
+  port: 1545
+  agent-host: localhost
+  agent-port: 1540
+  password: ""
+  setup-folder: C:\1C\platform

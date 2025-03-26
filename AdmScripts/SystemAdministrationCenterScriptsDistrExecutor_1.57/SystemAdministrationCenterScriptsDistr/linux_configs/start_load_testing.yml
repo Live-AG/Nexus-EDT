@@ -1,0 +1,30 @@
+version: 2.1.4.1
+external-values:
+  - www-host
+  - www-ib
+  - scenario
+  - username
+  - password
+  - initial-users-count
+default-values:
+  test-mode: false
+  try-count: 1
+  #timeout: 100
+  time-limit: 3600
+  lang: ru
+  initial-users-addition-step: 1   
+  final-users-addition-step: 1   
+  apdex-threshold: 0   
+  max-iterations-count: 1   
+  max-errors-count: 0   
+  max-errors-count-per-iteration: 1   
+  dynamic-user-addition: false   
+  lauch-on-running-agents:    
+  intensity-factor: 1   
+  publication-url:    
+  data-separation-used: False   
+  concurrently-launched-vwp: 0   
+  concurrently-launched-vwp-agent: 10  
+  tail: ""
+  result-file: ""
+  wait-for-completion: False

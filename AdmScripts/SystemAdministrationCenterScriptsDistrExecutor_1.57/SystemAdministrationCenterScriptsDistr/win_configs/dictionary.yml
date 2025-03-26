@@ -1,0 +1,326 @@
+start-1C-demo:
+  config-name: demo_1c.yml
+  script-name: demo.epf
+  interpreter: 1c
+platform-install:
+  config-name: platform_install.yml
+  script-name: platform_install.sbsl
+  interpreter: 1c_executor
+platform-remove:
+  config-name: platform_remove.yml
+  script-name: platform_remove.sbsl
+  interpreter: 1c_executor
+create-ragent-service:
+  config-name: create_ragent_service.yml
+  script-name: create_ragent_service.sbsl
+  interpreter: 1c_executor
+create-ras-service:
+  config-name: create_ras_service.yml
+  script-name: create_ras_service.sbsl
+  interpreter: 1c_executor
+delete-service:
+  config-name: delete_service.yml
+  script-name: delete_service.sbsl
+  interpreter: 1c_executor
+cluster-start:
+  config-name: cluster_start.yml
+  script-name: platform_start.sbsl
+  interpreter: 1c_executor
+cluster-stop:
+  config-name: cluster_stop.yml
+  script-name: platform_stop.sbsl
+  interpreter: 1c_executor
+cluster-restart:
+  config-name: composite_cluster_restart.yml
+  script-name:
+  interpreter: 1c_executor
+install-platform:
+  config-name: composite_install.yml
+  script-name:
+  interpreter: 1c_executor
+install-platform-with-services:
+  config-name: composite_install_with_services.yml
+  script-name:
+  interpreter: 1c_executor
+update-platform:
+  config-name: composite_update.yml
+  script-name:
+  interpreter: 1c_executor
+update-platform-with-services:
+  config-name: composite_update_with_services.yml
+  script-name:
+  interpreter: 1c_executor
+update-platform-with-services-copy:
+  config-name: composite_update_with_services_copy.yml
+  script-name:
+  interpreter: 1c_executor
+update-cfg:
+  config-name: update_1c_conf.yml
+  script-name: update_1c_conf.sbsl
+  interpreter: 1c_executor
+load-cfg:
+  config-name: load_1c_conf.yml
+  script-name: load_1c_conf.sbsl
+  interpreter: 1c_executor
+execute-epf:
+  config-name: execute_epf.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+file-execute-epf:
+  config-name: file_execute_epf.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+update-db-cfg:
+  config-name: update_db_1c_conf.yml
+  script-name: update_db_1c_conf.sbsl
+  interpreter: 1c_executor
+rollback-cfg:
+  config-name: rollback_1c_conf.yml
+  script-name: rollback_1c_conf.sbsl
+  interpreter: 1c_executor
+dump-cfg:
+  config-name: dump_1c_conf.yml
+  script-name: dump_1c_conf.sbsl
+  interpreter: 1c_executor
+dump-ib:
+  config-name: dump_1c_ib.yml
+  script-name: dump_1c_ib.sbsl
+  interpreter: 1c_executor
+restore-ib:
+  config-name: restore_1c_ib.yml
+  script-name: restore_1c_ib.sbsl
+  interpreter: 1c_executor
+update-1c-conf:
+  config-name: composite_update_1c_conf.yml
+  script-name:
+  interpreter: 1c_executor
+copy-files:
+  config-name: copy_files.yml
+  script-name: copy_files.sbsl
+  interpreter: 1c_executor
+change-ib-pub:
+  config-name: change_ib_pub.yml
+  script-name: change_ib_pub.sbsl
+  interpreter: 1c_executor
+execute-rac:
+  config-name: execute_rac.yml
+  script-name: execute_rac.sbsl
+  interpreter: 1c_executor
+get-sessions:
+  config-name: get_sessions.yml
+  script-name: get_sessions.sbsl
+  interpreter: 1c_executor
+get-infobase-sessions:
+  config-name: get_infobase_sessions.yml
+  script-name: get_sessions.sbsl
+  interpreter: 1c_executor
+kill-sessions:
+  config-name: kill_sessions.yml
+  script-name: kill_sessions.sbsl
+  interpreter: 1c_executor
+kill-infobase-sessions:
+  config-name: kill_infobase_sessions.yml
+  script-name: kill_sessions.sbsl
+  interpreter: 1c_executor
+set-cluster-parameters:
+  config-name: set_cluster_parameters.yml
+  script-name: set_cluster_parameters.sbsl
+  interpreter: 1c_executor
+set-server-parameters:
+  config-name: set_server_parameters.yml
+  script-name: set_server_parameters.sbsl
+  interpreter: 1c_executor
+set-infobase-parameters:
+  config-name: set_infobase_parameters.yml
+  script-name: set_infobase_parameters.sbsl
+  interpreter: 1c_executor
+set-all-clusters-parameters:
+  config-name: set_all_clusters_parameters.yml
+  script-name: set_cluster_parameters.sbsl
+  interpreter: 1c_executor
+set-all-servers-parameters:
+  config-name: set_all_servers_parameters.yml
+  script-name: set_server_parameters.sbsl
+  interpreter: 1c_executor
+set-all-infobases-parameters:
+  config-name: set_all_infobases_parameters.yml
+  script-name: set_infobase_parameters.sbsl
+  interpreter: 1c_executor
+start-service:
+  config-name: start_service.yml
+  script-name: start_service.sbsl
+  interpreter: 1c_executor
+stop-service:
+  config-name: stop_service.yml
+  script-name: stop_service.sbsl
+  interpreter: 1c_executor
+restart-service:
+  config-name: restart_service.yml
+  script-name: restart_service.sbsl
+  interpreter: 1c_executor
+update-agent:
+  config-name: update_agent.yml
+  script-name: update_agent.sbsl
+  interpreter: 1c_executor
+composite-update-agent:
+  config-name: composite_agent_update.yml
+  script-name:
+  interpreter: 1c_executor
+setup-cluster:
+  config-name: setup_cluster.yml
+  script-name: setup_cluster.sbsl
+  interpreter: 1c_executor
+export-cluster-structure:
+  config-name: export_cluster_structure.yml
+  script-name: export_cluster_structure.sbsl
+  interpreter: 1c_executor
+download-platform:
+  config-name: download_platform.yml
+  script-name: download_platform.sbsl
+  interpreter: 1c_executor
+download-postgres:
+  config-name: download_postgres.yml
+  script-name: download_postgres.sbsl
+  interpreter: 1c_executor
+download-configuration:
+  config-name: download_configuration.yml
+  script-name: download_configuration.sbsl
+  interpreter: 1c_executor
+download-via-url:
+  config-name: download_via_url.yml
+  script-name: download_via_url.sbsl
+  interpreter: 1c_executor
+download-from-update-api:
+  config-name: download_from_update_api.yml
+  script-name: download_from_update_api.sbsl
+  interpreter: 1c_executor
+move-files:
+  config-name: move_files.yml
+  script-name: move_files.sbsl
+  interpreter: 1c_executor
+remove-files:
+  config-name: remove_files.yml
+  script-name: remove_files.sbsl
+  interpreter: 1c_executor
+web-extension-update-all-paths:
+  config-name: web_extension_update_all_paths.yml
+  script-name: web_extension_update_all_paths.sbsl
+  interpreter: 1c_executor
+execute-ring:
+  config-name: execute_ring.yml
+  script-name: execute_ring.sbsl
+  interpreter: 1c_executor
+ring-install:
+  config-name: ring_install.yml
+  script-name: ring_install.sbsl
+  interpreter: 1c_executor
+update-CORP-lic:
+  config-name: update_CORP_lic.yml
+  script-name: update_CORP_lic.sbsl
+  interpreter: 1c_executor
+ftp-download:
+  config-name: ftp_download.yml
+  script-name: ftp_download.sbsl
+  interpreter: 1c_executor
+ftp-upload:
+  config-name: ftp_upload.yml
+  script-name: ftp_upload.sbsl
+  interpreter: 1c_executor
+file-apply-extensions:
+  config-name: apply_extensions.yml
+  script-name: apply_extensions.sbsl
+  interpreter: 1c_executor
+switch-extensions:
+  config-name: switch_extensions.yml
+  script-name: switch_extensions.sbsl
+  interpreter: 1c_executor
+file-switch-extensions:
+  config-name: switch_extensions.yml
+  script-name: switch_extensions.sbsl
+  interpreter: 1c_executor
+file-update-cfg:
+  config-name: file_update_1c_conf.yml
+  script-name: update_1c_conf.sbsl
+  interpreter: 1c_executor
+file-update-db-cfg:
+  config-name: file_update_db_1c_conf.yml
+  script-name: update_db_1c_conf.sbsl
+  interpreter: 1c_executor
+file-dump-cfg:
+  config-name: file_dump_1c_conf.yml
+  script-name: dump_1c_conf.sbsl
+  interpreter: 1c_executor
+file-dump-ib:
+  config-name: file_dump_1c_ib.yml
+  script-name: dump_1c_ib.sbsl
+  interpreter: 1c_executor
+file-restore-ib:
+  config-name: file_restore_1c_ib.yml
+  script-name: restore_1c_ib.sbsl
+  interpreter: 1c_executor
+execute-epf-session-lock:
+  config-name: execute_epf_session_lock.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+file-execute-epf-session-lock:
+  config-name: file_execute_epf_session_lock.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+kill-process-by-name:
+  config-name: kill_process_by_name.yml
+  script-name: kill_process_by_name.sbsl
+  interpreter: 1c_executor
+start-1c-client:
+  config-name: start_1c_client.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+disconnect_all_tc_agents:
+  config-name: disconnect_all_tc_agents.yml
+  script-name: disconnect_all_tc_agents.sbsl
+  interpreter: 1c_executor
+start_test_center_loader:
+  config-name: start_test_center_loader.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+start_load_testing:
+  config-name: start_load_testing.yml
+  script-name: start_load_testing.sbsl
+  interpreter: 1c_executor
+file-start-1c-client:
+  config-name: file_start_1c_client.yml
+  script-name: execute_1c_client.sbsl
+  interpreter: 1c_executor
+create-infobase:
+  config-name: create_infobase.yml
+  script-name: create_infobase.sbsl
+  interpreter: 1c_executor
+change-file-ib-pub:
+  config-name: change_file_ib_pub.yml
+  script-name: change_ib_pub.sbsl
+  interpreter: 1c_executor
+restart-agent-service:
+  config-name: restart_service.yml
+  script-name: restart_agent_service.sbsl
+  interpreter: 1c_executor
+# WINDOWS SPECIFIC
+iis-extension-update-path:
+  config-name: iis_extension_update_path.yml
+  script-name: iis_extension_update_path.sbsl
+  interpreter: 1c_executor
+win-reg-dll:
+  config-name: win_reg_dll.yml
+  script-name: win_reg_dll.sbsl
+  interpreter: 1c_executor
+apply-extensions:
+  config-name: apply_extensions.yml
+  script-name: apply_extensions.sbsl
+  interpreter: 1c_executor
+# AGENT ETP COMMANDS
+remote-download-by-url:
+  config-name: remote_donwload_by_url.yml
+  script-name: download-by-url
+  interpreter: agentetp
+remote-download-from-sac:
+  config-name: remote_donwload_from_sac.yml
+  script-name: download-from-sac
+  interpreter: agentetp

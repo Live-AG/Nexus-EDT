@@ -1,0 +1,24 @@
+version: 0.0.0.1
+external-values:
+  - setup-folder
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 0
+  time-limit: 3600
+  port: 1545
+  host: localhost
+  cluster-port: null
+  agent-user: null
+  agent-pwd: null
+  cluster-parameters:
+    name: null
+    expiration-timeout: null
+    lifetime-limit: null
+    max-memory-size: null
+    max-memory-time-limit: null
+    security-level: null
+    session-fault-tolerance-level: null
+    load-balancing-mode: null
+    errors-count-threshold: null
+    kill-problem-processes: null

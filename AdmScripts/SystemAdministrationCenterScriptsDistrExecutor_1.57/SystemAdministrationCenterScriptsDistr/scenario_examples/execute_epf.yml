@@ -1,0 +1,19 @@
+version: 0.0.0.1
+external-values:
+  - ib
+  - epf-path
+  - command
+  - username
+  - password
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 100
+  time-limit: 3600
+  host: localhost
+  port: 1541
+  lang: ru
+  client-path: C:\Platform1C\Actual
+  check-ib-availability-time-limit: 120
+  result-file: ""
+  access-code: ""

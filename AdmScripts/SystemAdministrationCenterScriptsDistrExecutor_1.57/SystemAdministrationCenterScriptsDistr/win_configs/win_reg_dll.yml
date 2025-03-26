@@ -1,0 +1,13 @@
+version: 0.0.0.1
+external-values:
+  - folder
+  - lib-name
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 0
+  time-limit: 3600
+  uninstall: false
+  register-server: true
+  command: ""
+  registration-tool: "regsvr32"

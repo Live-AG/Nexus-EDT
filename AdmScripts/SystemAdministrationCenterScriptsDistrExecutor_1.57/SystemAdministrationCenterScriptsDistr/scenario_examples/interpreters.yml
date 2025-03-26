@@ -1,0 +1,4 @@
+python3: python3 {script-name} {config-name} {cmdline-parameters}
+1c: python3 /var/SAC/DISTR/src/execute_epf.py /var/SAC/DISTR/linux_configs/execute_epf.yml --epf-path={script-name} --srvr=er278-win-1.tc.test --port=1541 --ib=night-test-win-1541 --client-path=/opt/1C/v8.3/x86_64 --command={cmdline-parameters-as-one}
+shell: sh {script-name} {cmdline-parameters}
+standalone: "{script-name} {cmdline-parameters}"

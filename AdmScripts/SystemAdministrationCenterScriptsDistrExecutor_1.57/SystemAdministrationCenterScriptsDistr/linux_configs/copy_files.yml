@@ -1,0 +1,17 @@
+version: 0.0.0.1
+external-values:
+  - source
+  - destination
+default-values:
+  test-mode: False
+  time-limit: 3600
+  try-count: 1
+  timeout: 0
+  copy-with-root: False
+  replace: True
+  archive-type: zip
+  archive-action: none
+  remove-source: False
+  max-delay: 0
+  pattern: ""
+  invert-pattern: False

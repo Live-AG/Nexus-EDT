@@ -1,0 +1,5 @@
+python3: ../../python/python {script-name} {config-name} {cmdline-parameters}
+1c_emulate: ../../python/python ../../Scripts/src/execute_epf.py ../../Scripts/linux_configs/execute_epf.yml --epf-path={script-name} --srvr=localhost --port=1541 --ib=night-test-win-1541 --client-path=/opt/1C/v8.3/x86_64 --command={cmdline-parameters-as-one}
+1c: /opt/1C/v8.3/x86_64/1cv8 /F "./1C_Interpreter" /N "Администратор" /P "" /Execute {script-name} /C {cmdline-parameters-as-one} /DisableStartupDialogs /DisableStartupMessages
+agentetp: agentetp {script-name} {config-name} {cmdline-parameters}
+1c_executor: ../../executor/executor.sh {script-name} -config-name {config-name} {cmdline-parameters-executor}

@@ -680,6 +680,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
+        <header>true</header>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -1160,7 +1161,7 @@
       <name>IPАдресКлиента</name>
       <title>
         <key>ru</key>
-        <value>IPАдрес клиента</value>
+        <value>IP-адрес</value>
       </title>
       <id>11</id>
       <valueType>

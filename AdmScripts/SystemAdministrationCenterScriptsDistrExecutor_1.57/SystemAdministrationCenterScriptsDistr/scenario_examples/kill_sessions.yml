@@ -1,0 +1,15 @@
+version: 0.0.0.1
+external-values:
+  - cluster-port
+default-values:
+  infobase-name: null
+  test-mode: false
+  try-count: 3
+  timeout: 5
+  time-limit: 3600
+  host: localhost
+  port: 1545
+  cluster-user: null
+  cluster-pwd: null
+  kill-designer: true
+  setup-folder: C:\1C\platform

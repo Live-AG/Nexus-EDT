@@ -1,0 +1,6 @@
+version: 0.0.0.1
+external-values:
+  - service-name
+default-values:
+  test-mode: false
+  time-limit: 3600

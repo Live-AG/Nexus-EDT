@@ -334,8 +334,39 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>25</length>
+          <length>500</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="006e242b-5a18-4656-9131-afca5bf1cdeb">
+      <name>ПредставлениеПеременной</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление переменной</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="952c5f70-2e10-47dd-8ddc-380c627bbc09">
+      <name>ЭлементКонтекста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент контекста</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.КонтекстВыполненияСкрипта</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -382,6 +413,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма результата проверки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e66f6fb9-159c-48fa-a822-4f721e795361">
+    <name>ФормаУстановкиКонтекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма установки контекста</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

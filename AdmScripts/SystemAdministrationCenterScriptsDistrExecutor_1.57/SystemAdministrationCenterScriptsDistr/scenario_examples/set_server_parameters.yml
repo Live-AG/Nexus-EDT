@@ -1,0 +1,23 @@
+version: 0.0.0.1
+external-values:
+  - cluster-port
+  - server-host
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 0
+  time-limit: 3600
+  host: localhost
+  port: 1545
+  cluster-user: null
+  cluster-pwd: null
+  setup-folder: C:\1C\platform
+  server-parameters:
+    port-range: null
+    infobases-limit: null
+    using: null
+    memory-limit: null
+    connections-limit: null
+    dedicate-managers: null
+    safe-working-processes-memory-limit: null
+    safe-call-memory-limit: null

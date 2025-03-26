@@ -1,0 +1,188 @@
+platform-install:
+  config-name: platform_install.yml
+  script-name: platform_install.py
+  interpreter: python3
+platform-remove:
+  config-name: platform_remove.yml
+  script-name: platform_remove.py
+  interpreter: python3
+create-ragent-service:
+  config-name: create_ragent_service.yml
+  script-name: create_ragent_service.py
+  interpreter: python3
+create-ras-service:
+  config-name: create_ras_service.yml
+  script-name: create_ras_service.py
+  interpreter: python3
+delete-service:
+  config-name: delete_service.yml
+  script-name: delete_service.py
+  interpreter: python3
+cluster-start:
+  config-name: cluster_start.yml
+  script-name: platform_start.py
+  interpreter: python3
+cluster-stop:
+  config-name: cluster_stop.yml
+  script-name: platform_stop.py
+  interpreter: python3
+cluster-restart:
+  config-name: composite_cluster_restart.yml
+  script-name:
+  interpreter: python3
+install-platform:
+  config-name: composite_install.yml
+  script-name:
+  interpreter: python3
+install-platform-with-services:
+  config-name: composite_install_with_services.yml
+  script-name:
+  interpreter: python3
+update-platform:
+  config-name: composite_update.yml
+  script-name:
+  interpreter: python3
+update-platform-with-services:
+  config-name: composite_update_with_services.yml
+  script-name:
+  interpreter: python3
+update-platform-with-services-copy:
+  config-name: composite_update_with_services_copy.yml
+  script-name:
+  interpreter: python3
+update-cfg:
+  config-name: update_1c_conf.yml
+  script-name: update_1c_conf.py
+  interpreter: python3
+execute-epf:
+  config-name: execute_epf.yml
+  script-name: execute_epf.py
+  interpreter: python3
+file-execute-epf:
+  config-name: file_execute_epf.yml
+  script-name: file_execute_epf.py
+  interpreter: python3
+update-db-cfg:
+  config-name: update_db_1c_conf.yml
+  script-name: update_db_1c_conf.py
+  interpreter: python3
+rollback-cfg:
+  config-name: rollback_1c_conf.yml
+  script-name: rollback_1c_conf.py
+  interpreter: python3
+update-1c-conf:
+  config-name: composite_update_1c_conf.yml
+  script-name:
+  interpreter: python3
+copy-files:
+  config-name: copy_files.yml
+  script-name: copy_files.py
+  interpreter: python3
+change-ib-pub:
+  config-name: change_ib_pub.yml
+  script-name: change_ib_pub.py
+  interpreter: python3
+execute-rac:
+  config-name: execute_rac.yml
+  script-name: execute_rac.py
+  interpreter: python3
+get-sessions:
+  config-name: get_sessions.yml
+  script-name: get_sessions.py
+  interpreter: python3
+get-infobase-sessions:
+  config-name: get_infobase_sessions.yml
+  script-name: get_sessions.py
+  interpreter: python3
+kill-sessions:
+  config-name: kill_sessions.yml
+  script-name: kill_sessions.py
+  interpreter: python3
+kill-infobase-sessions:
+  config-name: kill_infobase_sessions.yml
+  script-name: kill_sessions.py
+  interpreter: python3
+set-cluster-parameters:
+  config-name: set_cluster_parameters.yml
+  script-name: set_cluster_parameters.py
+  interpreter: python3
+set-server-parameters:
+  config-name: set_server_parameters.yml
+  script-name: set_server_parameters.py
+  interpreter: python3
+set-infobase-parameters:
+  config-name: set_infobase_parameters.yml
+  script-name: set_infobase_parameters.py
+  interpreter: python3
+set-all-clusters-parameters:
+  config-name: set_all_clusters_parameters.yml
+  script-name: set_cluster_parameters.py
+  interpreter: python3
+set-all-servers-parameters:
+  config-name: set_all_servers_parameters.yml
+  script-name: set_server_parameters.py
+  interpreter: python3
+set-all-infobases-parameters:
+  config-name: set_all_infobases_parameters.yml
+  script-name: set_infobase_parameters.py
+  interpreter: python3
+start-service:
+  config-name: start_service.yml
+  script-name: start_service.py
+  interpreter: python3
+stop-service:
+  config-name: stop_service.yml
+  script-name: stop_service.py
+  interpreter: python3
+restart-service:
+  config-name: restart_service.yml
+  script-name: restart_service.py
+  interpreter: python3
+restart-service:
+  config-name: restart_service.yml
+  script-name:
+  interpreter: python3
+update-agent:
+  config-name: update_agent.yml
+  script-name: update_agent.py
+  interpreter: python3
+composite-update-agent:
+  config-name: composite_agent_update.yml
+  script-name:
+  interpreter: python3
+setup-cluster:
+  config-name: setup_cluster.yml
+  script-name: setup_cluster.py
+  interpreter: python3
+export-cluster-structure:
+  config-name: export_cluster_structure.yml
+  script-name: export_cluster_structure.py
+  interpreter: python3
+download-platform:
+  config-name: download_platform.yml
+  script-name: download_platform.py
+  interpreter: python3
+download-postgres:
+  config-name: download_postgres.yml
+  script-name: download_postgres.py
+  interpreter: python3
+download-configuration:
+  config-name: download_configuration.yml
+  script-name: download_configuration.py
+  interpreter: python3
+download-via-url:
+  config-name: download_via_url.yml
+  script-name: download_via_url.py
+  interpreter: python3
+download-from-update-api:
+  config-name: download_from_update_api.yml
+  script-name: download_from_update_api.py
+  interpreter: python3
+move-files:
+  config-name: move_files.yml
+  script-name: move_files.py
+  interpreter: python3
+web-extension-update-all-paths:
+  config-name: web_extension_update_all_paths.yml
+  script-name: web_extension_update_all_paths.py
+  interpreter: python3

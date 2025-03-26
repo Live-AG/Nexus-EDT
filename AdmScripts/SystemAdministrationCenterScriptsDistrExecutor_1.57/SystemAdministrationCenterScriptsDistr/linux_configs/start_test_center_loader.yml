@@ -1,0 +1,21 @@
+version: 2.1.4.1
+external-values:
+  - ib
+  - username
+  - password
+  - host
+  - setup-folder
+  - access-code
+default-values:
+  test-mode: false
+  try-count: 1
+  #timeout: 100
+  time-limit: 3600
+  port: 1541
+  lang: ru
+  check-ib-availability-time-limit: 300
+  command: "TCA"
+  session-user: ""
+  tail: ""
+  result-file: ""
+  wait-for-completion: False

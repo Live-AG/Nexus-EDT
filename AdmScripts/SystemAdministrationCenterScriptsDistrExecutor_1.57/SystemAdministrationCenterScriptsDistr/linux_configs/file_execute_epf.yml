@@ -1,0 +1,20 @@
+version: 0.0.0.1
+external-values:
+  - file-ib
+  - epf-path
+  - username
+  - password
+  - setup-folder
+  - access-code
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 100
+  time-limit: 3600
+  lang: ru
+  check-ib-availability-time-limit: 120
+  result-file: ""
+  command: ""
+  tail: ""
+  wait-for-completion: True
+  command-options: {}

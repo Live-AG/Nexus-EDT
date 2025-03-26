@@ -1,0 +1,2 @@
+@echo off
+wmic product where "(Name like '%%1C:%%' OR Name like '%%1С:%%') AND NOT Name like '%%Ring%%' AND NOT Name like '%%License%%' AND NOT Name like '%%Агент%%' AND NOT Name like '%%Agent%%'" get Name,InstallLocation,Version /Format:"%~dp0\..\external_utils\win_ext_files\csv.xsl"

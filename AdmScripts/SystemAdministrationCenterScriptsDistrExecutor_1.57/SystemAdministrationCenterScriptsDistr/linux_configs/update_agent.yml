@@ -1,0 +1,12 @@
+version: 0.0.0.1
+external-values:
+  - setup-folder
+  - distr-folder
+default-values:
+  test-mode: false
+  time-limit: 3600
+  timeout: 0
+  try-count: 1
+  service-name: agentetp
+  keep-configs: True
+  dumps-folder: ""

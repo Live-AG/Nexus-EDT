@@ -1,0 +1,26 @@
+version: 2.1.4.1
+external-values:
+  - ib
+  - epf-path
+  - username
+  - password
+  - host
+  - setup-folder
+  - access-code
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 100
+  time-limit: 3600
+  port: 1541
+  lang: ru
+  check-ib-availability-time-limit: 300
+  result-file: ""
+  command: ""
+  tail: ""
+  wait-for-completion: True
+  begin: ""
+  end: ""
+  parameter: ""
+  message: ""
+  use: True

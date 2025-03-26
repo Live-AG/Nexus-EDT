@@ -1,0 +1,18 @@
+version: 2.1.4.1
+external-values:
+  - file-ib
+  - username
+  - password
+  - setup-folder
+  - access-code
+default-values:
+  test-mode: false
+  try-count: 1
+  timeout: 100
+  time-limit: 3600
+  lang: ru
+  check-ib-availability-time-limit: 120
+  command: ""
+  tail: ""
+  result-file: ""
+  wait-for-completion: False
