@@ -9,14 +9,14 @@
     <value>Объект системы</value>
   </synonym>
   <type>
-    <types>String</types>
-    <types>CatalogRef.СерверыБД</types>
     <types>CatalogRef.Кластеры1С</types>
-    <types>CatalogRef.ПользователиИБ</types>
-    <types>CatalogRef.ХранилищаКонфигураций</types>
-    <types>CatalogRef.Конфигурации</types>
+    <types>CatalogRef.СерверыБД</types>
     <types>CatalogRef.ИнформационныеБазы</types>
+    <types>String</types>
+    <types>CatalogRef.Конфигурации</types>
+    <types>CatalogRef.ПользователиИБ</types>
     <types>CatalogRef.ВебСерверы</types>
+    <types>CatalogRef.ХранилищаКонфигураций</types>
     <stringQualifiers>
       <length>10</length>
     </stringQualifiers>
