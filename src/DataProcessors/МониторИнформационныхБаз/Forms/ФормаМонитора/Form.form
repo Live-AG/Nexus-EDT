@@ -1037,11 +1037,6 @@
                   <extendedTooltip>
                     <name>Тест_ОбработкаДействийКластерРасширеннаяПодсказка</name>
                     <id>137</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -2853,11 +2848,6 @@
                 <extendedTooltip>
                   <name>ТаблицаИнформационныхБазКонтекстноеМенюПоделитьсяПодключениемРасширеннаяПодсказка</name>
                   <id>299</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -2886,11 +2876,6 @@
                   <extendedTooltip>
                     <name>НастройкаСпискаРасширеннаяПодсказка</name>
                     <id>303</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -2917,11 +2902,6 @@
                 <extendedTooltip>
                   <name>ТаблицаИнформационныхБазКонтекстноеМенюГруппаНастройкиСпискаРасширеннаяПодсказка</name>
                   <id>301</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>

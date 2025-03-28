@@ -15,7 +15,6 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="52ac47d8-20e9-4440-a91a-643cc854585f"/>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
-  <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
