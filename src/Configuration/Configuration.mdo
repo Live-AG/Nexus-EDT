@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Nexus</value>
   </synonym>
-  <comment>Обновление платформы до 8.3.24</comment>
+  <comment>Обновление платформы до 8.3.26</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="775853de-c908-47f3-82fb-d85daa547b81"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="196c353f-9031-4492-9963-133c42e999e2"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b2985ea5-0a8e-454c-b93b-7a1667a98842"/>
@@ -13,6 +13,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="add303a9-c01c-4494-b498-e602db3ee313"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="73bab8aa-5764-4252-8271-3dc1124cecf8"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="52ac47d8-20e9-4440-a91a-643cc854585f"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>

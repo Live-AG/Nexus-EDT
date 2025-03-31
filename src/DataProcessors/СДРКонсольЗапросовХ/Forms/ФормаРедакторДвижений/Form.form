@@ -2608,7 +2608,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+T</shortcut>
+    <shortcut>T</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.InputFieldChooseType</picture>
     </picture>

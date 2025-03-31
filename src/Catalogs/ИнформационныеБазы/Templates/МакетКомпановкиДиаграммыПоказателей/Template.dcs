@@ -151,8 +151,7 @@
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ТипДиаграммы.ОсьЗначений</dcscor:parameter>
-						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartAxis">
-						</dcscor:value>
+						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartAxis"/>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ТипДиаграммы.ИсточникЗначенийОсиТочек</dcscor:parameter>
@@ -165,9 +164,8 @@
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ТипДиаграммы.ШкалаТочек</dcscor:parameter>
 						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartScale">
-							<d7p1:titleText xsi:type="v8:LocalStringType"/>
 							<d7p1:titleArea>
-								<d7p1:font xsi:type="v8ui:Font" kind="AutoFont"/>
+								<d7p1:font kind="AutoFont"/>
 								<d7p1:textColor>auto</d7p1:textColor>
 								<d7p1:backColor>auto</d7p1:backColor>
 								<d7p1:border width="1">
@@ -175,25 +173,22 @@
 								</d7p1:border>
 								<d7p1:borderColor>auto</d7p1:borderColor>
 							</d7p1:titleArea>
-							<d7p1:gridLineColor>auto</d7p1:gridLineColor>
-							<d7p1:labelFont xsi:type="v8ui:Font" ref="style:TextFont" height="8" kind="StyleItem"></d7p1:labelFont>
+							<d7p1:labelFont ref="style:TextFont" height="8" kind="StyleItem"/>
 							<d7p1:labelColor>style:ЦветПустойГиперссылки</d7p1:labelColor>
-							<d7p1:labelFormat xsi:type="v8:LocalStringType">
+							<d7p1:labelFormat>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>ДФ='dd.MM.yy (HH:mm)'</v8:content>
 								</v8:item>
 							</d7p1:labelFormat>
-							<d7p1:scaleLineColor>auto</d7p1:scaleLineColor>
 							<d7p1:scaleStep>5</d7p1:scaleStep>
 						</dcscor:value>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ТипДиаграммы.ШкалаЗначений</dcscor:parameter>
 						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartScale">
-							<d7p1:titleText xsi:type="v8:LocalStringType"/>
 							<d7p1:titleArea>
-								<d7p1:font xsi:type="v8ui:Font" kind="AutoFont"/>
+								<d7p1:font kind="AutoFont"/>
 								<d7p1:textColor>auto</d7p1:textColor>
 								<d7p1:backColor>auto</d7p1:backColor>
 								<d7p1:border width="1">
@@ -204,11 +199,8 @@
 							<d7p1:gridLine width="1" gap="false">
 								<v8ui:style xsi:type="v8ui:ChartLineType">Dotted</v8ui:style>
 							</d7p1:gridLine>
-							<d7p1:gridLineColor>auto</d7p1:gridLineColor>
-							<d7p1:labelFont xsi:type="v8ui:Font" ref="style:TextFont" height="8" kind="StyleItem"></d7p1:labelFont>
+							<d7p1:labelFont ref="style:TextFont" height="8" kind="StyleItem"/>
 							<d7p1:labelColor>style:ЦветПустойГиперссылки</d7p1:labelColor>
-							<d7p1:labelFormat xsi:type="v8:LocalStringType"/>
-							<d7p1:scaleLineColor>auto</d7p1:scaleLineColor>
 							<d7p1:scaleStep>1</d7p1:scaleStep>
 						</dcscor:value>
 					</dcscor:item>

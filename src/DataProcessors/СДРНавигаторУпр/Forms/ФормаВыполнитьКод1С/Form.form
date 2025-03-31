@@ -1935,7 +1935,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+Shift+U</shortcut>
+    <shortcut>Shift+U</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>_ПрописныеБуквы</name>
@@ -1957,7 +1957,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+Shift+L</shortcut>
+    <shortcut>Shift+L</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>_СтрочныеБуквы</name>

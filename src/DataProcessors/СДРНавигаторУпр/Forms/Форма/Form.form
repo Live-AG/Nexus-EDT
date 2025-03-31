@@ -11645,7 +11645,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+D</shortcut>
+    <shortcut>D</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.MarkToDelete</picture>
     </picture>
